@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: stable
+Date: Mon, 13 Oct 2025 11:32:21 +0000
+Origin: proton-gitlab
+MD5Sum:
+ 950e1eb0c1105e8ac5b5a45be46bf33d               77 Release
+ 37574bb7a9765a04ffd7b4de79143e18           190157 main/binary-all/Packages
+ 503425019e6ce1249a465aed78936c35             7560 main/binary-amd64/Packages
+ a3680433726013d820bee907a377d3c4             7560 main/binary-arm64/Packages
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+SHA1:
+ 9e27c4c36e18e599f5d6109e1f922b437eb9796d               77 Release
+ 939547ee241d703705062c3780d83b4fdd9e101e           190157 main/binary-all/Packages
+ a399dd71dfeedfa69bca29ea2b9451e12243acaf             7560 main/binary-amd64/Packages
+ 5c09b0b13c29162848504d7c0f292c233165875e             7560 main/binary-arm64/Packages
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+SHA256:
+ 78d9895066d1605df44d0c6d2f8c9ad38904b55975819c45babd49dfa8240353               77 Release
+ b1f34dbab5e21c0f1c0220be4a8ea343fb3fa85496fc9df8a0676b1eb349233f           190157 main/binary-all/Packages
+ cf74c0f706d836eedae6249e135883ac6898ba43cc9ac0f20cb6a310dbd63792             7560 main/binary-amd64/Packages
+ de1ef3413e7d8c62ad454590edb66bf09368b2530be33d69e8f9685a6a1a35cd             7560 main/binary-arm64/Packages
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+SHA512:
+ 2e8420f73773b2e46bf792a38f1c92822bcd31de67395854479637e369b942b09cc1e790abb81b645bb4a457067f6af7dc89c47814e7bd91bc3691f3c0b67dfc               77 Release
+ 38ca530310612ffb8791dd1b94b376fa9be9aea9a9059105c721a39daec1252add3e9037b9ea47ac1f86e02ec177aa56cc176a8dfc4f1819482c32cb5f847560           190157 main/binary-all/Packages
+ 28b271a976eb23afa35208bc77adf9d740bb8a85fed67718f544b6c8faa466b846e11e41ba8745c1801c4f0a4d0b0d1cd85d4812bf2889da8dbbd39355779017             7560 main/binary-amd64/Packages
+ af3dda318da9a07cb13a428b82f35a33253ab4e74bbab9ec2c2985cd3940aef08cb11b1cf383b45885b6528710a74871a682017b443bf6a6a5129b3b40fb31a5             7560 main/binary-arm64/Packages
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEhLDTSSx2ycb1hzwY7aPiJjA0nxwFAmjs40UACgkQ7aPiJjA0
+nxzwAQv/Q6wPNuT9jubIpmdFFiFHTOMdEgAAtoQkwYVGtnBzWdwKGZqY9atH1Av+
+Fe3OsLXrhM5+BYWuwQAXyjM19pSnVs2ItZghDkMTA9migdo01CM+dMRmWZz/c/b7
+8MGPoZxlQjmiB1rpgpn4PQpRhOO7bVSqve1b2/50OIAgnw5S7vY+v8JNn93wz+kL
+3NRWsjqeP1Y7m+ZeMDdToHI3Y5bGJo5AT5j7XUvF16BnFS6WnsCHCeg2OBFwKe60
+F3uWqAJLUcHnwwUXuuunD0UyCxLxHf7WQDE3kkTZ4ykzBIUw2t0nKihLJnfxMRYc
+YPCv9rnjMvp9FB3vrQaxVZDOt3mmoMj93qRPdN/toaoRZbtum8mFt+VyoFbXEt8g
+SJiMisGrUZfN+FJKxa5wnuB8/JyAdPk7oh+IYiXkJjNvBD55AnTYENZoxvls9Y80
+XeAv2pcMopSF5QWjx8odliUdPmD2irpiRJz/9+h/Np8cAFJ7Bq/mbFVW4gK2CmRv
+kOv/jDoa
+=zWhB
+-----END PGP SIGNATURE-----

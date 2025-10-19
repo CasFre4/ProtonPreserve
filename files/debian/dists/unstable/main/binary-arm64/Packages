@@ -1,0 +1,255 @@
+Package: python3-proton-vpn-lib
+Architecture: arm64
+Version: 0.1.1
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 1532
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-lib_0.1.1_arm64.deb
+Size: 493584
+MD5sum: a50f39bb3ae440cef5155bb3bf931c43
+SHA1: 202ab616773acb0e2bcbafdf6d07ae209972a333
+SHA256: 3dc75d734119f82bb2f20b7a78a8c52eaaf3f9a115f4133969c1595590fb8833
+SHA512: a9dca823031f22a0fda6762c1ef728e95e534f2676f01de7ff5ea455d131957c3f7315992d318a537fcbfd6404148c81e4131eaf4b5d3199e11e00425410d789
+Description: Proton VPN linux client Module
+ A python module which will contain the heart of the rust component of the linux client.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 0.10.0
+Priority: optional
+Section: utils
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 4192
+Depends: python3 (>= 3.8), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_0.10.0_arm64.deb
+Size: 1407596
+MD5sum: a447a4cae6678b6299805f308997da34
+SHA1: e6143243dacf424c0c71ea34c3e83687b15316f4
+SHA256: 0e901020e4d9e164b1877fa05065fb1bbc901a5a2e22f4ebf550c1c9952862d6
+SHA512: fca553a6b40160cbc4011ca5d8d37da30b1a01ed9f185427907093da1556c13d682070532e348dae2af1afb23c7b463daf91f4d411b09e1748bba965e37b53fb
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 0.3.1
+Priority: optional
+Section: utils
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 2964
+Depends: python3 (>= 3.8), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_0.3.1_arm64.deb
+Size: 1065736
+MD5sum: f51ccaff8bf27e6fd8eb9cdda5a2c7b3
+SHA1: 11758d2fe055bef2ac90aebd26db69e25cfcfa84
+SHA256: 3a44fd024803685c9725d2eb600590732e602737ca4d8f7e29f7e9a2769d025a
+SHA512: dca7b27a3b08a820026af29ae524e336c8a056407d2cade66ed067b7509e97a35b317f32923f2b96cc88e971877c4ae9c4a415c0957ced5e565e450d5d8fbb79
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 4184
+Depends: python3 (>= 3.8), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.0.0_arm64.deb
+Size: 1398744
+MD5sum: 04dedb2b3afab44571c45fcdefeef765
+SHA1: d17a3b3360ab8500c4f63b294ef2dd696686b698
+SHA256: 550bdaedffbe541004d678ecfc3dc7f81a86965ea19c3cac3cf786b007cbc696
+SHA512: c6c8a6ab0ae15d18a9fc66b565a315ef695646a09c1a0590b670e1246bee9371692845c38da5c3d8d65135ea1810a77f88cede452594ce52b9eb72a3c1989169
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.1.3
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 4217
+Depends: python3 (>= 3.8), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.1.3_arm64.deb
+Size: 1404388
+MD5sum: 55d9a4aa64443b8cf7c8a5d0080a7a34
+SHA1: a710312921aae90d946be413cacd2129ad6efb7f
+SHA256: a2600b5c55bfbeac086a76f52db972b7a208890c3ed60cfbc3c47b7494f6f646
+SHA512: 21f0af406768d9d68695b5882dac872fc27836cec15b6411cf171afcd4ce3e93fe05051e3baf1050927744f38f941bd8fe129976098de8379c0cbabe49561e84
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.1.4
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 4217
+Depends: python3 (>= 3.8), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.1.4_arm64.deb
+Size: 1405080
+MD5sum: a5843a330b5c3d19b3125e862b4cf068
+SHA1: 75ae4bdddda26b8815c34cf1ac31cdeaed6edd04
+SHA256: 470dcf400f9ea32ce4eb549e673d252729be893fff5c52a08e66fca9e15a7e6a
+SHA512: aa469e22d315197bcbc6fd05203a17a5075885114a41e301b07edf4f5a27184f12c86ce2be9bf4766833378eee5d19d10b8e3d8f43724c14afe8caf7d47f97af
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.2.0
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 4217
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.2.0_arm64.deb
+Size: 1404724
+MD5sum: 487be39028219a39243384fdb50492ef
+SHA1: e72f1edf2a174edd3dfc4b892b31e975449e496f
+SHA256: 596b86d41f50d6920efece0a124f15e2a240cc916a4693fd8e97c9d807c837a7
+SHA512: fff63e7ab3de87f4b3ea039b821003db3745d3c195cdf9c261ff65a3a99a5fedc0ee88efef76d9979cde2e97928fe401910ee6be95fdf05e899a5787d2fe6960
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.2.1
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 4209
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.2.1_arm64.deb
+Size: 1405064
+MD5sum: 51250b723764cf9becbc911ab7d5dcd7
+SHA1: 1a35f345f0d1315ab34e0913ea32ef8f3087194a
+SHA256: 6ee54901fbdbc37bcc20a28da6128b0207fd6485afdc07d2bafbb1bf3346ee5b
+SHA512: 6a7dd77b4cafb412a04b4ffea464253ac6a46a3da6bb8966741cc877c96fee429108f2259833f8566d16b9b33ce7cf3ce2ed4eaba07a62fafb6a6336907b288a
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.4.3
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 4417
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.4.3_arm64.deb
+Size: 1445636
+MD5sum: 47dca9e009c0bbf6d6fe3a7a447001eb
+SHA1: 6d3250622292b881669babb957711d29021c02ab
+SHA256: eea88b054cc9c737b884f0e082c5b8746a2cc5f6a164bb6d722d7d6bc8e26d2b
+SHA512: 33e04a603125b9c4362fc7a5ef4957690b0e7ff0643b85572124d4aa1d35cc772da60650d81127a6d08837c5d3f52d3311fdf5a53623cdc3da2dd4a4837ced64
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.4.4
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3485
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.4.4_arm64.deb
+Size: 1167248
+MD5sum: 859e4eae38ceb2110ae982e0f3277d37
+SHA1: 6247cd92af758701ebbc5af0d4849384e884ce3a
+SHA256: 389b3e70d8b57ac280b36569cd089420b61835c37c0e3a13475b02abd980d0b6
+SHA512: 29916aa4aac1c7d2e0a278324abe1b6e4aba7fc49cf0b124c4b01785b84a34b62aa58e5a727c09056bad3612ba6ec00bde162b26275378d4bed6f9b1164e573b
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.4.5
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3501
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.4.5_arm64.deb
+Size: 1174448
+MD5sum: b81771a0e314aa8b2bf3a3d65b509645
+SHA1: bf369dd4f34b3b95aaa458d5b137e9ff2488582c
+SHA256: 1e917cb32d3f9fa1bd057813637bd5f55ea0d9378ba00d776e9f34772221ff13
+SHA512: cd62ee81417f16aeefc95cca74187a7cfc8886bc737ea36ed30a8aa9df1ce4128833033b4882084767e154345e33918bcdc4b669db69544ef7bfdebb59f5b35d
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.4.6
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3521
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.4.6_arm64.deb
+Size: 1177524
+MD5sum: 379a84b1a93ed9295839b8b00fcf299c
+SHA1: 49c0b715a14c5621c2195c0dd0bdfe790d3deaa2
+SHA256: 38e06ad1e97d101a56f52ffae1e482da21274d0e41fd32915c895a7db5adad76
+SHA512: 5bf46cd4e2f0ba4605123341b7d61c7c2c5cc827517f9fdff48cb7e01a017e787e8753804aaf8d25a3dd66c22f11acb5cda39685dbdbecb4df0f47c482a76714
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.4.8
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3673
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.4.8_arm64.deb
+Size: 1225700
+MD5sum: 12146449b25b2dda216d43273bbd79b7
+SHA1: c77567af2ae60f1d96410adb1064c9b20b36efd3
+SHA256: 02cf00d8d1aa10c16bdc3234f7dc188c43ad6b63ef98f7b9fed53662995406a3
+SHA512: fcaf422cdeff7a976ec8679b242cdbb72040f5f1c7d366c0707b78cd47bdf34e5b42fb60f6537c32e8728cac797172b81836e8797842c7a3dd40ca7cf274a192
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.5.0
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3713
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.5.0_arm64.deb
+Size: 1234048
+MD5sum: 0c0c30e40fc3bb7436dea66ff40f4d99
+SHA1: d968cdbedf5e9d1d4aa1395577dd0d2ade5f86f1
+SHA256: c301e8ebfbe285c3452bd6a621f41ddcb36a8368e5c6e0022968a62654492222
+SHA512: 9b85106d3c8343093745a05b811d6ac9802ef2151355dfe772bb7bed79cf9910fa62a448c3f71bbb181cd77f5898220cff260d49dbe7626361ef1628eab31e98
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+
+Package: python3-proton-vpn-local-agent
+Architecture: arm64
+Version: 1.6.0
+Priority: optional
+Section: utils
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 3737
+Depends: python3 (>= 3.9), libc6 (>= 2.31), libgcc-s1 (>= 4.2)
+Filename: dists/unstable/main/binary-arm64/python3-proton-vpn-local-agent_1.6.0_arm64.deb
+Size: 1240064
+MD5sum: 6bff8975ee6ee86572d243924bb7d502
+SHA1: 3825c9649c588a000956582f8688b92520e28727
+SHA256: a2de1a8d00b73f3d28736ba0fd3debd1cb97733ceb501244c7bda77a83b8eb95
+SHA512: 8e7fa0b34678c83fc6d86c79a223ed724f0d94819270f8ac44cf8e079c6386d6a26715a4d0036b1c60d62c3be5b2a9398e6feaee2fed2919faa2eaee905dd3ec
+Description: Local Agent Python Module
+ A python module which implements a client for the Proton Local Agent API.
+

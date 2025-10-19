@@ -1,0 +1,27 @@
+Codename: unstable
+Date: Mon, 13 Oct 2025 11:32:22 +0000
+Origin: proton-gitlab
+MD5Sum:
+ de3a4004438c0a8c0a445bcb4dd9f0a8               79 Release
+ 9457881b6b072d5318e218c5637c7fb5           266992 main/binary-all/Packages
+ e35a6c703edd9cc14187edf819798c40            11368 main/binary-amd64/Packages
+ 55484b9dc7922fa88cda95a6161a63ce            11368 main/binary-arm64/Packages
+ d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
+SHA1:
+ 331d6c1d4e187ee48030cb351125f2dbbd25003e               79 Release
+ 40c13df6d4348d96543cacf42dcfd8c8e221f27e           266992 main/binary-all/Packages
+ c72e933653c83c74ffef2bf8cddaee5ac1bf86cc            11368 main/binary-amd64/Packages
+ 4239830aa77aad94b91516769ec3a0c3db84b3d1            11368 main/binary-arm64/Packages
+ da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
+SHA256:
+ 7760407507472dbcf3ccf9d833bf600cf0c70ddc76100e49667a30335424f6e8               79 Release
+ d782535ccae44ecdba1d8d9013d5c01c32f22512999e76bf819f57980f1c41ea           266992 main/binary-all/Packages
+ c28a3a19b56dc7ad0617d2342659f6e56914abba586a353af593b01d9afbb591            11368 main/binary-amd64/Packages
+ d3d9b7874cf2b3f24a9623c5f0f5f431250e24d7b7959ac1643645cb01766a0f            11368 main/binary-arm64/Packages
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
+SHA512:
+ 5b73b3c2cf75813cf9c5e264137e7be09d16370f92f6a94b921f6ca3be0aa2542f76915f66564686f0c1521d18c6e51c0f91f24fe2d1001fc29cb4c90f9c7718               79 Release
+ 046d1bf1c0c2c0dd4764abf5b315b6f6c5b5280399ae1a46f70d4dae2f7191ef7154ebfe981ae0bd866b7426d8b62fade5c0a872098ce8937395ed8135b3ebd8           266992 main/binary-all/Packages
+ f805685aecbf8a39569387a9735464168914d57b60c160a118b330be1d31a4b7658e208c18e19aa69bf36d1b9cf3902ae64c634077d8da2b29992aa4f9fcf95b            11368 main/binary-amd64/Packages
+ f73eeff8578bbaeef1a5af61651115d462e347280647c5c182adfb08df2088de5c3242bc032181d4460897becaee171c59d143be2648932740d093e7bc800a90            11368 main/binary-arm64/Packages
+ cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages

@@ -1,0 +1,3803 @@
+Package: proton-vpn-daemon
+Architecture: all
+Version: 0.13.2
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 99
+Depends: python3-dbus-fast, python3-packaging, python3-proton-vpn-api-core (>= 0.44.0), python3-psutil, python3-systemd, python3:any, systemd, python3-bpfcc, wireguard-tools, linux-headers-generic
+Filename: dists/stable/main/binary-all/proton-vpn-daemon_0.13.2_all.deb
+Size: 17986
+MD5sum: f66cab45a24787c34b9021eb40db554c
+SHA1: ccc95809b45769ca113e28c5fedab18d957a30e5
+SHA256: 979b9c69148d345690c715a16f9fb4aa89cc29e1f6cee27ad8fa324a61825b08
+SHA512: 554e66abb298eb96933249c7cbdd83e2c612f19de130d891ac809ff7550ba7b8c42d83ce40b5363c7bab4a176bc0c7ff065d793d98942ae1ce4cbe2ee03d3c7d
+Homepage: https://protonvpn.com/
+Description: Proton VPN Daemon
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.10.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager (>= 0.9.0), python3-proton-keyring-linux (>= 0.1.0), proton-vpn-daemon
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.10.0_all.deb
+Size: 2680
+MD5sum: 8ea402590955bc0bbb8c40aa2ec79824
+SHA1: f047d4f7ced02f1c050c8363a2fc51f88d28ddaa
+SHA256: 6a7b5035d1fef91c6b5cadb4dbf8ba6e946a45a96c9b8273e5f993cdfda9fe0f
+SHA512: 27decaa200f18769b58de6d9f8144e3ae59d6106308e7d993e0ea0605612b29fd21e3c59a91319174caa266fa55c08615a88d789dc597576fe703933cfecc240
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.2.0-1
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-killswitch-network-manager, python3-proton-keyring-linux-secretservice
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.2.0-1_all.deb
+Size: 2428
+MD5sum: 44cde015b379612bcc8d79d2b3e6082a
+SHA1: 9d5bc92d0486254abcf25e7704daaef343629971
+SHA256: a99a283614b8c47d07fe5cd427057e10a92e1a969de0788ed61c257a910c4c69
+SHA512: 60193078c32b4a99aa51cc389c9d19dcfa8c1c8ba4343c9bd490e3e28e3b00f2c91cc1b665e0bb9d4a1088a110da7a26e91b00793e62dd0c641471a452227193
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.3.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-killswitch-network-manager, python3-proton-keyring-linux-secretservice, python3-proton-vpn-network-manager-wireguard, python3-proton-vpn-killswitch-network-manager-wireguard
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.3.0_all.deb
+Size: 2488
+MD5sum: 1762e5e0ac09f893b1ef6562bf2f04a8
+SHA1: 056d3f0e5b37c4299cd09bac422f855a6b15883b
+SHA256: 9a80e1ab1bb331afb65c062e3f0a5849daacf067917fd2c750d49ac5f2829bb2
+SHA512: 921823c06a9f89b3042bfe69a6e45ecbce9820466eefd40317c9a0766103d85679d65eed271e4acaef640a09fd75a5a4f1dfdb3187fb990ab3aff167612e2943
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.4.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-killswitch-network-manager, python3-proton-keyring-linux-secretservice, python3-proton-vpn-network-manager-wireguard, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-local-agent
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.4.0_all.deb
+Size: 2528
+MD5sum: 54342fc4d01cda891811774043fd1483
+SHA1: 54039e240930bae747102ed477617c53a6f52c7e
+SHA256: b4ec60b9add26354656852ad1ac21bb1f6dc6a7fd36b3a0d4154bb195be50829
+SHA512: dee8deccdb02dff02d9af5c32cd80afd31b2565d9f444852b323ce0a1b0edcec97f03179eafd99408261787a5988ccb9a0f52c191ac8a9585aa598d4bc7cc837
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager, python3-proton-vpn-killswitch-network-manager, python3-proton-keyring-linux-secretservice, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-local-agent
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.5.0_all.deb
+Size: 2584
+MD5sum: 115593960cfa2793a4522bbe832f8355
+SHA1: a71c636c14c1e5b252539848b71d38981b6e066e
+SHA256: a79992623c4cb509b19279d82ade3948386b14c507b8d4d32bacc49ca63ccfd4
+SHA512: 9d577b6be6e5aab64d4248a9f23c0ace65168381ba91a99b0700adc9218a1727fe9ece2f316dc5bde25f6a4ac2ed1e20a21e4fe1cc4f62a50bd6b10ed8c8fc87
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.8.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager (>= 0.9.0), python3-proton-keyring-linux (>= 0.1.0)
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.8.0_all.deb
+Size: 2628
+MD5sum: a49bf8550029c387733a6a2a1a6d6752
+SHA1: 59bb0241ea1f642073a786ed96729a2b35dec820
+SHA256: 1d1f18beca2afb9ce074652e05fc2e5c4a8f63c724801093710f6c66894bfe5a
+SHA512: e4ef096aca6307bfc03a8d3b96ee6828e90f35f767bac81def94cac6d85c50c6a80e7bc1d9de77eaea76a4732b472a508397026ba58b08004a7e3d5a78b10165
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gnome-desktop
+Architecture: all
+Version: 0.9.0
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7
+Depends: proton-vpn-gtk-app, python3-proton-vpn-network-manager (>= 0.9.0), python3-proton-keyring-linux (>= 0.1.0)
+Filename: dists/stable/main/binary-all/proton-vpn-gnome-desktop_0.9.0_all.deb
+Size: 2652
+MD5sum: 23893b0fe7901ed63f624dba943118f9
+SHA1: 7fbd88ea49ff4b75ec86be8ae67d4bf43e3b5406
+SHA256: f3737cb9f987cfec7aaa45856566cc1024ff32574061acb58998e895c2338933
+SHA512: fe1d1b37a6b83df443cae6f77402259c44c5066d37cd54c8568089ecac32ac8524f0c7aa821b99c8ee1cefaac031e04cce874cf43c68ae548d0b2bd85eaace1b
+Homepage: https://protonvpn.com/
+Description: Proton VPN Gnome Desktop metapackage
+ A metapackage that installs all necessary dependencies for Proton VPN on Gnome based desktops.
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.0.0
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 383
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.0.0_all.deb
+Size: 59976
+MD5sum: 2096e338cf8daaf7853c26e7699345e6
+SHA1: 71e12d8ff94f3a31892ad022259a615e795b8e27
+SHA256: 71bb95a1f63e54ab183976f379aa71e671ef9e9775ba2175f448a4a46e1a4159
+SHA512: 2e5b10d3cad8d8d17facf9f29857ebb7cd162cd666f4ac399f354a05011b1f64da34742eb10c7dafdfe9b9cb87c1d0583dfce13f2d08391ba73aad61f42491f9
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.0.0~b2
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 382
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.0.0~b2_all.deb
+Size: 59888
+MD5sum: 23826dd6ad24876e74f1e44652a88228
+SHA1: ca670866a065b7e11b0a28261c46b70ce31965a7
+SHA256: bd89df2c7850a8fc234329416e731c75e4f1266dc1ab57ea5e5a53aeec91c690
+SHA512: 6a5fed2707097677e26fcab11ed8b3866d04228b2a0a0c56a5f0825960e9a8163483b50c572d9f7cf6ec5d27da495c1516bf976e359364aa47b6be4f2cdfcfde
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.1.0
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 382
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.1.0_all.deb
+Size: 59924
+MD5sum: 1e4ea749dade8d98ec1c349342bcd6f7
+SHA1: b9293a590482abc31fda4418ef374d5409ca3ff3
+SHA256: dd80f97f21d6ce7dc1545f2e657c7e0c2aec2f719d2b2a48f58d45e07a3d60e2
+SHA512: 54566f2b6a2ef18abb03a717d8667dae104a8aa67f090d15c70716baecdff76aa327be58f7659f986b7aa3084c43bb0a2b1abf12d14b73f24aa7bf27eb2ad442
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.1.10
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 397
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.1.10_all.deb
+Size: 62592
+MD5sum: 4b011a748dee4fbed425e306067a3f7d
+SHA1: f75bf64b31c8fc13dec6e45763dd556daa22451f
+SHA256: ba45f2366535ef2489215854b34f2c35bf08f70d09fd68e8d4424e89029357c0
+SHA512: 0f3dcedcba474aaaf2ee35e79a3df987ae809bc28338d458d71f0f702c98abfa235591ac954696897f3bb4ccf709d10a69b8b94117ea668e380e61c647e745c2
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.1.2
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 389
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.1.2_all.deb
+Size: 61292
+MD5sum: 915fefa7e4d823aa942a5a0eb64f43a1
+SHA1: 0134c6c81979c39e91b20b03f28e35524a6747b3
+SHA256: 1cc5222b099cc1147370be1805443bdbe812db5e5074a930a4e4cb314e3fa95b
+SHA512: 0d709ecace901ec5ab04264193bc808ae3a940d78d5eea20d976a608d0c4e8224c18cd964c385d0d390aad8820dffcef27fdaf3eba32c3ab6f28635e0f5e7fc8
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.1.3
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 392
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.1.3_all.deb
+Size: 62100
+MD5sum: 030b5e08b4f79de5106b726db59a82e5
+SHA1: 7b7c8a25dd9388f31c6d215b0eef9503bebc82c7
+SHA256: a90f6be58181e8b3408ea0a9657ccb117c89011379a1d4a322556fcbb5613817
+SHA512: 7bb47c01ca5dc240ce01a5c07aa1e2a21cd7cfb898d4025386fd6961f48cf3750f4e5f88f4f464a8d4d2201ee9648ecc70390010e248feff3996b5a33d908d7c
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.1.8
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 398
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.1.8_all.deb
+Size: 62604
+MD5sum: 458e37a61a3c215f1753c1b754d21a9d
+SHA1: 8388fa557acedffcec66b44bd5179da70fcc77f7
+SHA256: ac6f1ed4a93a741f25915c5c1c1933d8cc5e57608a79d2ac553f69e57e795f9d
+SHA512: 70c0066a1b97944c448d20dae36fd9ae77a95847754c97350a0559ee5d9ee912473afe032cba7db05a453b797542430b58129fb384d34144a0e0d76fbdd58638
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.11.0
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 621
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.46.0), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.11.0_all.deb
+Size: 97514
+MD5sum: 56a3773da64d9a813529f61e3bb67b20
+SHA1: 17559890a7ae3fab9148a2335d07edd00e0068fa
+SHA256: d04fa76503918b1691abae573e62cb9d9734ad407a455cd22f186f579244b7b9
+SHA512: dcb4fb7811e99719e63dbbbf342646eeae30ceba59aae623278cbbe95b6e92e10a2af9135a8d785809e9567a4cdb7543b7eafd282415408a55bb0c99648e58be
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.2.0
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 407
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.2.0_all.deb
+Size: 64336
+MD5sum: 6221d778a7299b14329ad8d9bce9b6b8
+SHA1: 8900878b0a13d145e435f386af4d481fa7f1a37c
+SHA256: 881dcee0eec7c8478b519ee7b08ab77bbc001e1fe63edfad4b4f75ce79a41e38
+SHA512: 8fa66ac4102c1b6563491a182e44f69d05c2b165ef3cbaa69524abe9185441d659b032a3546125588d0b95f284650f4308de3d521b1dd6ddfccbb0a11c897748
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.3.0
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 436
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.3.0_all.deb
+Size: 68764
+MD5sum: 6d22d09e6a0aa31989b9107989dfcd74
+SHA1: 95b3d8e2c6d697c83ab531be063bddb7e9f10995
+SHA256: 1b6fc6119da32db1d6de06bf52dfac3c8bc1938fa4417a292a3bea8bcd31ab07
+SHA512: 45959e6bab01fb4ac6cf41220a93a529114566bee353ba200cc892620a8762abf10b15c6b892f551eef73d64e418dbf832e626b14fc53a14ad8e4ff48c66e669
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.3.1
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 445
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core (>= 0.23.0), python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.3.1_all.deb
+Size: 69912
+MD5sum: 1850c3228609d9289832bcd5b6f61b90
+SHA1: a01bd68942c9060c88ee90844ef3bfe06b9e39eb
+SHA256: db7d8987f8e55a1b156c8a8286c5cce643cc5d6b2d31026db8631db71d36a434
+SHA512: 4d08034332188e0bee151fb5f60410d5bb732182ebe6a1c1fff9a22d98f036bbee998609504fab4e8bfff3a6df1fbdfb6d41abb7f9baafbd6d6b4889a2ac38dc
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.3.2
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 445
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core (>= 0.24.0), python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.3.2_all.deb
+Size: 70072
+MD5sum: e64c0f93923fd9c2118d71d0cea77e44
+SHA1: 599224512a1f1bed8ddb4c636257e91e1a3175ee
+SHA256: b7b7373658481ff8fb6788769a2fd1d6338324915ebf87e1e07d2d365380d679
+SHA512: 8356153649f901390ff2c0b0efcb0dad996950aaa9604089dec132352aca7d7625ab7d8b0964376e99885f5d2749468d8f6308291e335bbfde98cf91552e13e6
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.3.3
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 447
+Depends: python3-cairo, python3-dbus, python3-gi, python3-packaging, python3-proton-vpn-api-core (>= 0.25.0), python3-proton-vpn-logger, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.3.3_all.deb
+Size: 70244
+MD5sum: 94ddde522164ee5938051ac3def09f84
+SHA1: 9b0b468bacced621fb3f8bea65f65efb7529010d
+SHA256: 4ee3ae842a031fd35f0f421a4b34ae71be6b09c159ca9ac1cd620506a340220c
+SHA512: 582585453e8da57a4d61769c5bca310cad663f5ab39c8e307acdf602d7f470f3ccf89854c6f7298849b4aaecf1eb1a7da6e5889acf191a9ab1b261fba40af071
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.4.2
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 455
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.29.0), python3-proton-vpn-logger, python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.4.2_all.deb
+Size: 72368
+MD5sum: 3976b2acafed1a23d8e800dbffdf948b
+SHA1: dc2eacbbe76e2c2670efac71d43526ffd8d21d4f
+SHA256: ea05406c531b3a1a09e53c4b56a9101e9395411027048f7368475642b71d241b
+SHA512: 8fcb55521bc76c57cf6cd304a9a57e2aa8c075913b06e51e8775ea2905e15d36723b11976969a4c0180bb3dd5e5cfc7331100e493897386f8164c9c9c4805a74
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.4.3
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 455
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.30.0), python3-proton-vpn-logger, python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.4.3_all.deb
+Size: 72528
+MD5sum: 65c7494546baa63f901806894d0f768f
+SHA1: 3a6e5759dc91b30c58f4c3b15517c3bd4ffe50a8
+SHA256: d021f2869bfe6b87c0d053dd1f00863740d3394ccf2075ae229f4bbe0c3305d9
+SHA512: 20fb33913b64130a17473987b961d46014c7faff3323c2075b93a0ea6d571360bc4db953859c54359ad9fdb7d6a8917811cbb3d339d5106fce489bb1defcdf20
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.4.4
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 455
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.31.0), python3-proton-vpn-logger, python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.4.4_all.deb
+Size: 72928
+MD5sum: 193a9f71d1223ad32be03ace87ff401f
+SHA1: 998d69a2bf3b88a7bf2cb8c7ada4ce56b83251ea
+SHA256: eafcd3c3f989fb498eb03b3ac60082f38d47646f81be000bbea6c24ae7b0f155
+SHA512: 89ff909a40ae16bcb3c0e69b4f1146ea470d8ad659aa90c45436a7f2b41af6d34854c1ca60d4289bbf3988aa2fc65f0e70e51a2a9c29f5cb8fa22acee5a33910
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.4.5
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 457
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.33.3), python3-proton-vpn-logger, python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.4.5_all.deb
+Size: 73140
+MD5sum: 177bc693481c29c2acc2c5b443227746
+SHA1: d891c2f2d695c6e55858023bd63c4de1b8d2a171
+SHA256: 8ee871c44c5458b5fe094d4237580e49f22a5a755f46b9ed99db77c71b498f20
+SHA512: d384aeaace0735010035fc81d0a66fab32367de5e6e8ca06e6410a8c80f23c5b47c86c68be06cd183b3808cbee252386cbcfb0860cde8e5ee495c5cfb58ae8d1
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.5.0
+Priority: optional
+Section: python
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 456
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.33.12), python3-proton-vpn-logger, python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.5.0_all.deb
+Size: 73264
+MD5sum: 43f86515ec0f954255a1b81cc980e758
+SHA1: feec2beece9a2dc2d9dbbbda4875634c0ae276d5
+SHA256: 39632c903cfad1d51a8f42f40f52f48d1ab3bf23fb82ae652327c87bcd8b727d
+SHA512: 47eb23e78d61a47260c4e01be9fc7393a09919b2a28ce7fdf7c121f79dbc4b45fa09dca2d0ac62761f70f8a3ecfeecc7a38632c3f10b121e3330db3ff70a84b7
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.6.0
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 425
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.2), python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.6.0_all.deb
+Size: 69740
+MD5sum: c53fc46751ca7cd08223de237ce9eb12
+SHA1: 2fd80aeb42ac6046d988f646bb9b40651cdebb36
+SHA256: 8a7406dcb66a82da9634ab88665fa005d390d853be8cd450d01a4b30adb370a3
+SHA512: cf8d784efae15eacda34df88de55df25ade1e7451f1e31f38071570b9848eb97998fde848bcb7f5e362c0b38fa08a25b05b89f0c40182044b7d0d56f7edbfe21
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.7.1
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 429
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.2), python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.7.1_all.deb
+Size: 70484
+MD5sum: 8c1c2b989bf48da698d7ab5072cbec53
+SHA1: ee85463c4682bac496af0d6a032c3ac711bc2e26
+SHA256: 8ccc2537bf0355a3e156b9ebf85f525f2d987dc405c130c58b31ab9290b9ba23
+SHA512: 27376b696f4b92290ad8b8d7a78eaa4a41b876325c1b471061fe482f46252021c07c8f2d48012979b9b8275f1ba6e948875a8fa7ea8ef2bc86bf566fc6e37539
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.7.3
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 430
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.2), python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.7.3_all.deb
+Size: 70582
+MD5sum: dd5010fb53fb26be0f949225478190ed
+SHA1: 4b83cf9dab41384a1e9e1d901ecaff041fdd5d95
+SHA256: bd5caef0dd49e8d97544d09eab035bc2470bff4f1eff313218f9290b230e7981
+SHA512: 03d492aa9baf329e958f8ab2eb79539ebd107b5679000d9f0fc4add20b9f989f62d2d2996aaa5f780c1ae2ec47ddbaee22486ae23e9c5b7bd533d16e1bd28836
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.7.4
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 458
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.2), python3-requests, python3:any (>= 3.8~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.7.4_all.deb
+Size: 74034
+MD5sum: 208bf9bf38cb5fbab94b1edea44aa795
+SHA1: 80b3054ef56c14862d6480fe21417df6e0ff3031
+SHA256: d3bf4731a7709125122c0b39dd1568d7b388d826040fe77a503487ac22b019a7
+SHA512: 0510f3714e11db49f32e685a371f35b83775b906d542615953da2ea06d00067a1191c276d5ade24e17806088d788cb24a38312be032bb4769079a2fcbb3276bd
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.8.0
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 482
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.37.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.8.0_all.deb
+Size: 76862
+MD5sum: b290c32f53ed35c7fbf4443a144e1e83
+SHA1: b124be3c1311e8cb2adb39603d0709c9f3dd3ef0
+SHA256: c248aaa21b15d2c3101fab4ea7e8341a2c2bbf15b215327d0f33213c2f3a5966
+SHA512: 39a5a8fc002a7b1399112ceab2c0f9dee0a253cd6e840126982b56d8b2c83a3e55e3d4461cda69ea3d80f5f26dbc0cd681f90420f63764a6b1110afbd97f603e
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.8.1
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 482
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.37.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.8.1_all.deb
+Size: 76886
+MD5sum: 9d490ca393a00a87c799818475787f83
+SHA1: 09d524a110da87e9c5474cbed38f2aae074cc044
+SHA256: 3e8b5efdd60ff38ff89199fbf169ba764e59657e49127a167b093bb2c87e2179
+SHA512: 27dac85036c160ea3c10ede0e6f34b3545ac8e4127f4511f0e51dc5c528ea0f964c5a08abe3d3e8b1c27bbda350f3456f472b98d2de52e8439580b6ee0f3b0eb
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.8.2
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 492
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.39.0), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.8.2_all.deb
+Size: 78574
+MD5sum: 93afc14d7bc32af047e9718561bb269f
+SHA1: 0da44cb5a14f3577a1a3daf90cbf91f85df35266
+SHA256: bfb7987a516707d6ef5f1f84eca76cebf92edf0cdd466b5d4d0121e1e138c187
+SHA512: ac245e009082b945033c367ae985594b14cfa8b91e41ffccc00eafd2d9a30414a7a90f1c5bd4751fe9fe83528f2dab772f9bf4c9d159b1cd8537fc23c6005419
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.1
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 484
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.41.5), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.1_all.deb
+Size: 78762
+MD5sum: 2b2ab547af91c6aee408a70bc7da2ad3
+SHA1: afaffe0e61cc03b2ed5796177255f4b3c8fbb9c4
+SHA256: a08bb65a5d826304847d9c480588115e1840a11b539090b73ccb36f33f2ff8f0
+SHA512: da7676efb2b100c83860f606898524d4465a6e7a751d452f2f1b215b2813bb882d25425664853c9db23af9248f8e6f5daacd969fb075171edc15f37839332b81
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.3
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 486
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.3_all.deb
+Size: 78938
+MD5sum: ea2ca6f087f9d3638b48991e19509c6a
+SHA1: 79e36326ad4e3d007305bd37a0ed102d5ae52272
+SHA256: 999de7f1d30396b960e37422e34a71d9ac1b59c6d07ddeb8523ccab8010508e3
+SHA512: 745df31276ec02061171b5242f9a8b8a5e8848bc4de11d43b8cef6fde709a20adb8ceaf3f4d6b0b10b36961b81f6915fb3780a791859025f9ea232277bd37fdb
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.4
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 486
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.4_all.deb
+Size: 79014
+MD5sum: 587d28bf9d3237ab90cf0e43856aa9f0
+SHA1: 220934bcd1439c594d803dc04f0fcab262040307
+SHA256: 8b651840719b3fd8064d17a7e8ed725ae594b3c26e331a79dfa92fad2e8a821d
+SHA512: dcf96060102e526b7f8b31dc4bf7c3360c19d3767d7d67829ccfb94121ddcbcb6b00e3cfd6b6b8a6e608bc5995760f77f9efdca44145c735505e9c71d51f8110
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.5
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 486
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.5_all.deb
+Size: 79034
+MD5sum: dc98ff2ed839d27922b5b4bd3963315f
+SHA1: fac6cebd6c71eb31ed88efe34f99640ee6f91e0a
+SHA256: 10dc3a1734ddb06a403cca3865ac0dc18ca6234a8d1bacd370e9ecdd46bd4d10
+SHA512: 16aae138f40275936a2fdaec54433591516fd06e2bb5a745419ae2f9fdaee2218abc2ee37b04b76ffca0786d328af4b8d94b92a137e8cddc93cc8e465b6489ab
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.6
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 486
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.6_all.deb
+Size: 79098
+MD5sum: 534e4c2a6521c334324708504fdd4505
+SHA1: a0d346b6a6ebb5aa7f306b742b95e15625fb9589
+SHA256: 5446cc3248d7ec59e13802834d491402135670bf7491673e9d7587971c7baee8
+SHA512: 7e9d07adf4c768929ed2bef3ef71c73b27369a5b7294cd62eb5cc0b2d447244723e465c9b7adc6732b4e5a98cd67e800bbdae0d43a499de38ad61e41da6be584
+Description: Proton VPN App
+
+Package: proton-vpn-gtk-app
+Architecture: all
+Version: 4.9.7
+Priority: optional
+Section: python
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 487
+Depends: python3-cairo, python3-dbus, python3-distro, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3-requests, python3:any (>= 3.9~), librsvg2-common, python3-gi-cairo, gir1.2-gtk-3.0, gir1.2-nm-1.0, gir1.2-notify-0.7
+Suggests: libayatana-appindicator3-1, gir1.2-ayatanaappindicator3-0.1
+Filename: dists/stable/main/binary-all/proton-vpn-gtk-app_4.9.7_all.deb
+Size: 79406
+MD5sum: 3efac376fd4b07b5fdb69475963137bb
+SHA1: 4436dfd8b431de31c41cfc09d7200bb5ab2f45a2
+SHA256: 5e1870e116d623c9ed0a9d1e1a65e0785654ad824148ab0a8e76ce2add111a3a
+SHA512: e59cd445237344d945c5ce970afbabb64671060f70a776bb2ab181d180ac7501b81b73f21252f564da8a3a1758e15655adb48d3b42305950d87b691a879ec293
+Description: Proton VPN App
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.10.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 116
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.10.0-1_all.deb
+Size: 27000
+MD5sum: 22294ed740188dcd8b9beb5f3b06e8a8
+SHA1: c24716964797052a4d455beeb816359f56739180
+SHA256: d2422a5732bcd2a56ba5e54a6785034faf84d1a7891a97e527b6e1bb68d9e901
+SHA512: c4e279b9325c8d417b7e1e0282fab2d02a2f30e0d07df0a6d7a78262a4cc1c5578e96d349ef83caec831a8f78c9d8c16da21ea7c17bb78cf971cf972a266165b
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.10.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 118
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.10.1-1_all.deb
+Size: 27216
+MD5sum: 4e9f02ea464201878fc6143c1bdfd813
+SHA1: 390741195beb5ada9d4b806f0bc7258f89456817
+SHA256: 6721ff56553bf34ecdb8ba37643ce58d3c782e697e7cb3cc4d7b3b7810a3d940
+SHA512: 5bfd82971d6b0afa9acbf73ffbb2a72f909decf92559d260e8f943a255e92677a8e05939b90369bb14aa48b33b518ae47978cf2e6a25d187a59d728844bf0140
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.11.0-7
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 120
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.11.0-7_all.deb
+Size: 27676
+MD5sum: 8d101bc3613cfb3ccd0c4eb945f12bde
+SHA1: 899bac598dc3d5f476a472e76a20e424d17a84c4
+SHA256: bd608a5ef54a132caec04d8a1f109f1a20e9d5182a2c894b1d53255a02c75a35
+SHA512: 5b165d9919261a900263942d10f5d06d2da5cccd64f2a84779ab029b56b7e4e1da17e6f271f0424ac8622cab4bee65e490d9fa47c7fb1796018d57ee2ecd9cc7
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.11.1-4
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 122
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.11.1-4_all.deb
+Size: 28076
+MD5sum: 89c4faed2a298e853d0ab1f70eab3775
+SHA1: 187a23fb911bcb318098ff538cb5da77fbe562cb
+SHA256: b5a69a1eb0507501db070b261c0f90fb8feae3d0433309ec3c5bbfcea2dffd59
+SHA512: 84b09a338e32fc271670f53cffe005f69c7908265400c5f3c9487d1ce2cfb1ef8cc8ac24546311620923e85cef45f4448cd1d5595af9cf62af0407fd6789a190
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.12.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 122
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.12.0-1_all.deb
+Size: 28204
+MD5sum: a06926a051f808b30e9c18501868fe4e
+SHA1: 436ca2f0be2c0aafe685fef77e763751bd2e52fd
+SHA256: b4552856f9a520990278a63424e24601129888822583863dc104ee775dce7d28
+SHA512: 390854b2cf430d8815fe75dc3519fd103b1843cf8e9c8232e8b16d1117bcb91a3a7ad3ff8729673032d8bd316548cc7f1f936a3e789f75e648e33239a16e8253
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN CLI (Python 3)
+ Package installs official Proton VPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.13.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 122
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.13.0-1_all.deb
+Size: 28300
+MD5sum: 3488909ecf00039945c573988503c60c
+SHA1: e75ef8e0f32da7391caa8ea277d314b5af50ddd3
+SHA256: 7d5900bb9b82831a2c3bf19c5b19c40817a403d011004bd64048a5b22ab7bd6f
+SHA512: 45dc7a0f7744edab924727f3fb8002fa09176dbac381eb3de111737dbc07499cc17237575e680d5ab3f0c368f100b9f4b4da0f51d625e3aa724fb9b0898e6272
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN CLI (Python 3)
+ Package installs official Proton VPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.5.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 108
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.1.0), python3-protonvpn-nm-lib (<= 3.2.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.5.1-1_all.deb
+Size: 25464
+MD5sum: e4e7c453026fe4d09b059de1e5b953e2
+SHA1: 6abfd43afd7099423addc0e9df259c588e84a2a5
+SHA256: d29d5ed25b565f56d297e4db57f057ed4e62e37dd1facb41813e40414524bd78
+SHA512: 2cda238d8061e8d596214582d40a2960c0c4a1fa7f464e82d983334219ee18ebfcf175ae9a55b969dc04b14d27242619d1106f1a00501d71f80555b5a91881b1
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.5.2-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 108
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.1.0), python3-protonvpn-nm-lib (<= 3.2.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.5.2-2_all.deb
+Size: 25468
+MD5sum: ff3804dcf4c27b18a294d6d07dbb4c06
+SHA1: d1891062b3c799e4feaddf2022bf4b690afc52b9
+SHA256: 203477b3756deb1bf4c294f77c823cf8e430f7a634b36311c1b0ce832fe7cf45
+SHA512: e5165d4843ce40c192fb80db1074e0b74fa12b63177da4b42346aa8752a80308cfa1b331cb642f96f58f8b4ef48428f6f339cdb976f9437087e4d2db0b700023
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.5.3-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 108
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.1.0), python3-protonvpn-nm-lib (<= 3.2.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.5.3-2_all.deb
+Size: 25492
+MD5sum: 34bc2057c8366a9ce155f26016b57e2f
+SHA1: 2dd0e9fc20efd249575a8bba95bda7b3dd61ad00
+SHA256: 29942d8071714b33a1ae718cf1311f51c771c3e87a41a386a3c95f8549277030
+SHA512: 195e7772be410b9c7f9418f3c120dceb4718fe3b0ada9972880164365d565f1b3e9e98f95f85705c11a7dccf1a2336fc240e778f2d9d61c67c91acb7b9f430a0
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.6.0-4
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 109
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.2.0), python3-protonvpn-nm-lib (<= 3.3.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.6.0-4_all.deb
+Size: 25792
+MD5sum: 3146f34757436b4c71c16af9cdeb369e
+SHA1: a38d717a15108c4e1e432fbd32f2eb4f0aef9353
+SHA256: 1a9cafc77f6c46ddf8ede309da751b51358baea63581e5ad1a3deb46686feac1
+SHA512: 09f210f40acb4d665cb68d52a26300e1ad635c08fa0f86f2b1a8bceebb2c82e35d9b43e7d647490ea67d47b02be9f1010d26541d4b1287f6013d25c63860bd9a
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.7.0-3
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 110
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.7.0-3_all.deb
+Size: 26020
+MD5sum: 9656d678e5da5f8473df93f12f3b22a0
+SHA1: bfa6d14edb33c1a5d7abd0cb2a16a091014e932b
+SHA256: df64ff35f77e19bc8083f56eb57c55f4507829a48779fbbe0a47a1dd7fe356ca
+SHA512: 673678a423e1b55eaade43cc7f2f0c236cd3c2a3ab26e68bda671549d89ab9b71381cb09d7432d2e6c297fe6d3b8593a8814f5fc90bc73e012961c002d292dcf
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.7.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 111
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.7.1-1_all.deb
+Size: 26220
+MD5sum: 862327ea24d2a825c6486dbc9f0fc0e5
+SHA1: c5c8d2e11beb7309cfc2e7d1b6d84b39f45df1da
+SHA256: 5029c632fd7d336ad793d0daf55ba7532c6e73e38b56a3e225feec94a1736bf7
+SHA512: 5234465d2dd5df30559b99abf1403122d4ef51720a466bd4d3630cbe3d75e7720af765c21442f35c41a370f2f9cbaf4f03829c7556ee925ec9b46ff8840b65a0
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.7.2-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 111
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.7.2-2_all.deb
+Size: 26228
+MD5sum: 30f93445787790fa3d288a30cd6b5e26
+SHA1: a80d207b15e45ed12aec1493a581766443b2674f
+SHA256: de8b2d36f0c7fdf9649ad59d2504c75925aa4572564eab923b63b9867a6aed4c
+SHA512: 0ff63fc551452ac2140a06dc62bcd46a031644df1883776eabacee05f0a5d77425835c34c40aae0ceff44871172c23246f64b8b40f92d9d1caa3f0f8c1434992
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.8.0-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 113
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.3.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.8.0-2_all.deb
+Size: 26568
+MD5sum: 31046c41dec47410bae5ae7ac0bc08e4
+SHA1: eb612befd19ae17eccedd36200a647952d6ec290
+SHA256: 5f3e77f11120a01da7aa4c41a0e5491aa7207f3bd4c3f97acd6252d0fcf0b3a5
+SHA512: df753fce2bae34a167939f79c58ddc051fcbc9d1ca84ca95e6e1a5c3abdce26bf5e20552a2bc0ab76c015f6e0633cc72ae00dd1c1db13142d6f92b0b0aba3a47
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.9.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 115
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.4.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.9.0-1_all.deb
+Size: 26864
+MD5sum: 0bce58030338426ecb7ca560c9f13e0f
+SHA1: 5cf83fd9e55700a0318945e461aae336e765198a
+SHA256: 82a8c70c7a5b784c8449a91a9f758d56e3cbefb7d202973f8ba66e1492ba1dd4
+SHA512: 40c1c177da16490817b5eaba26d1318713a8ca7347cf0ca3678ac2aa0fdd709a8bdac32f1f43d44d47639b498532d4b6151b8083b344ae13a5075325914870d1
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-cli
+Architecture: all
+Version: 3.9.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 115
+Depends: python3-dialog, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.4.0)
+Filename: dists/stable/main/binary-all/protonvpn-cli_3.9.1-1_all.deb
+Size: 26912
+MD5sum: 79dd2d82deefdd176e6b7837c2af6b3e
+SHA1: 6c389d23a80d01023136e5aa36b7dd1c9037d1c6
+SHA256: 0f490702173ea11972a5ed3a6f81a3f9718ead86e75aff97ab9f84682b000de8
+SHA512: faf05106f43514ff8aaf97582b9574d2ab2cb7c58565cef4df0f8d61caa82ede3b2f8411c9511a492ac6833c537a23e0b54680036c0452e473412a23d8197b04
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN CLI (Python 3)
+ Package installs official ProtonVPN CLI.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 0.7.1-4
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7287
+Depends: python3-psutil, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.1.0), python3-protonvpn-nm-lib (<= 3.2.0), python3-gi, python3-gi-cairo
+Suggests: gir1.2-appindicator3-0.1
+Filename: dists/stable/main/binary-all/protonvpn-gui_0.7.1-4_all.deb
+Size: 2976902
+MD5sum: 6eb1f31cca1c175c8caf41d949583087
+SHA1: 5ce7030640507aa689faefc63de9bd4d4987ea24
+SHA256: 1e2042261b5e4f4bd40e6553152a48fe074b80fda20c0dab15976be7662b52bf
+SHA512: 80a042388a4ce29ed1b106f52d53b0392a9a7cc6d78482716028631eb91186d573ce856596c3c79cf91236b8ec01aaa4bb654483517eb92896421d8f827506c7
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 0.7.2-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7287
+Depends: python3-psutil, python3:any (>= 3.5~), python3-protonvpn-nm-lib (>= 3.1.0), python3-protonvpn-nm-lib (<= 3.2.0), python3-gi, python3-gi-cairo
+Suggests: gir1.2-appindicator3-0.1
+Filename: dists/stable/main/binary-all/protonvpn-gui_0.7.2-1_all.deb
+Size: 2976942
+MD5sum: 5f339ef3f2db865be9af0cdcbc5ee185
+SHA1: 92f23ca06cc5e5739a95357ca8f0e27050ca816d
+SHA256: 251df180b42e422d3713b11ae89e4b49bc01f518b05660c4b53c26c3e438f219
+SHA512: fa976b532b9ae7c807c5a2f79273b3dbdec34fdecba5291b730628c0b1d211e820489cd0617577b242be347959c73591036cd6b181f7f7073aa64192b55a9666
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 0.7.3-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7287
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.2.0), python3-protonvpn-nm-lib (<= 3.3.0)
+Suggests: gir1.2-appindicator3-0.1
+Filename: dists/stable/main/binary-all/protonvpn-gui_0.7.3-2_all.deb
+Size: 2977042
+MD5sum: 84530100279e1313001ef4a5f1a3fe35
+SHA1: 7eb8cff726b5d94ec983cb100e0159fddcfe48ba
+SHA256: 9f90be41b6a19caf7a56d0c746edbb750ea7a1370882c60af22ede67dbeb54fa
+SHA512: 6ff1bd112801c4781532763aeecd65023946cd35419b6006f52c13c5ae75e2c1e9f8f57edb9cf286a8527fcd332497cc0ea75b28ee49f2ba7046226d32facc6e
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7292
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Suggests: gir1.2-appindicator3-0.1
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.0.0-1_all.deb
+Size: 2977562
+MD5sum: 99544c1e69cf80670b581dc788dd8a8b
+SHA1: e7c188c1c51a2236c52b7cd931a232aacee0b81b
+SHA256: 2ebc357f085fe82ecf62d6105e60294fe37db4fed25cfae0c4c5e0aadf9b9978
+SHA512: 014f1b5e65f8e756aff450fcd90ca935ab3711c1be5374b8cc80e68290fae68281831a833269aceebb5c181c61aafec8f4b4157c5186a23bc7f57b4178c7cff4
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.0.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7295
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Suggests: gir1.2-appindicator3-0.1
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.0.1-1_all.deb
+Size: 2978118
+MD5sum: 726974ca2d0ff2aa6a8f9ee779568ff6
+SHA1: a8b8cd45788b406c1ddadd5209c2d8fa7a59c990
+SHA256: 01292e44eed798efb4b06353073cf66a02821f1f1a80dab8ebdffc7772ca91d9
+SHA512: a58747d476679f1f94fb40d55816306af8ad4e15bcfdcfc375462bf02e38936bb94f85205f403b514b4dd2926a787d197effc5a4cd25682c8687721ed42aab68
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.1.0-7
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7308
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.1.0-7_all.deb
+Size: 2979582
+MD5sum: fb74078a7ff4b9d230db725d97995daa
+SHA1: efc6ffa5a90843279e5ab56d9467a4998f75aa83
+SHA256: 3f42d2c37f9e7da77ec99a21b91b22827f85264b13fd2f2fc1060b013a5fc7ad
+SHA512: 99e52cf602359dd69bc4bc742914f75a0065a07fea51de5bf30a3bd763aa3e5e669fcfc7a69a7887ba4abbb5696fb682f31a63cdb18d2950b8f291ca69b745c8
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.1.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7309
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.3.0), python3-protonvpn-nm-lib (<= 3.4.0)
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.1.1-1_all.deb
+Size: 2979770
+MD5sum: e438bfa9f166b192291a081179bc1b23
+SHA1: f99319dabd83a0557d24f3037556bccfbee8083e
+SHA256: 1a90db2420a52f6edfdb8f2787cd0d278b11613825de2524367852abf6d38b40
+SHA512: 1e4398f7f94f540b5b90394690d3ae356f493ff2deec5d6b4ce4a4c35f8569162913d28cf2271a18d3ab465af181d2c14d186c32e5ef71f71f4ca7043878678a
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.10.0-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7629
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.10.0-2_all.deb
+Size: 3174046
+MD5sum: 0cf8e096712da45d63cabe30f3c07f36
+SHA1: fa1bb0054fb7c43220a0d5367442fdbf38ea0566
+SHA256: 16e143008c307e50da07e1ed570927230cb0bc00bbf510f972d1eba661f987f4
+SHA512: 9d07a3910477c4bf465c368339c8036efc4989c197ec5e240aba1dab5318dfa912552e9d21c13824d2e8572aadd21ea2d43ec8df0cdd82b94c1e2131c462b665
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN GUI (Python 3)
+ Package installs official Proton VPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.11.0-5
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7630
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.11.0-5_all.deb
+Size: 3174138
+MD5sum: fbe645be725b5d0f3c6f7da6e6dc6dbf
+SHA1: 774624a58e8846ee97c095c6ef5ed6d5b691ec6f
+SHA256: 13c54db7a0c07caf1a83ece11b27be83aedf0d9e13e22c33a65b6ac3cf8e151d
+SHA512: 44a55b6353aa630837abbd047149e8971cb5a018fd502ff3ef15520d17ff47f31968252e822d2af67efa158960c4cc61e80f57c619af6e4c8de12d36b065b6d0
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN GUI (Python 3)
+ Package installs official Proton VPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.12.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7631
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.12.0-1_all.deb
+Size: 3173048
+MD5sum: 99099604ff80a52604acdf58654a6404
+SHA1: e92be68c5fe93c1f1ba27a2282fd04e0d1db6d7e
+SHA256: 23da1ed88e7c6410e07de9163e9b04577fc57f6a8638efd0f70d69e5b8fb528e
+SHA512: d79ba76ada6866245bf744b2ec92250d69141e174b46e9fbe924459204b9afc90fa4bc1b11650e252b2a2bb0af0e6ead8c9cc492120398fcbefff77e9c3905fa
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN GUI (Python 3)
+ Package installs official Proton VPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.2.0-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7312
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.3.0)
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.2.0-2_all.deb
+Size: 2980834
+MD5sum: e509fd3de3124e31b69a7c6f8544d189
+SHA1: 3ef9928a6f2e6d0a093cb25d683c4ef809a6baf1
+SHA256: 96687fce758cc198aadf18ccbe522c914222f6a8faea92bd28537038a3b5b2be
+SHA512: c7a0d184deb20aa632777ccbf3fcf9f3b1bc32b2e11c1111f3181b59492fc776159c13a7b94630a04dc8bf2e74bda92c20e31ba6e05b7da30b42976f5a296ccc
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.3.0-7
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7340
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib (>= 3.4.0)
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.3.0-7_all.deb
+Size: 2983314
+MD5sum: 678f00a3cefc630b1f6d99f7ea8009ab
+SHA1: 50ff2d090a702b47930bc9db3681fa33d24b6966
+SHA256: b28726d8baa7d713f8a2b04be114adccb0e56c6cd3faddda1a4a633b6d11ca7b
+SHA512: 9314da595f57a013d97d199551b928165dfa4945409650fe2f8d2341f6d6ea982fc22e7d02df298b47a03507d04f5deec97b936923f12b1abef104d06fc70a37
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.4.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7367
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.4.1-1_all.deb
+Size: 2985454
+MD5sum: 66e871dcd42b3bceb0099a871778113d
+SHA1: 03424fb4b7c179963a3869e3c4d7a9306627588e
+SHA256: 71fcfca3de8f279ca8e18e9066a5cfab17ce0fee0463f2f54e8d840ea0af4428
+SHA512: 6c2f15ceb5ba283e8297f8fdf2e4504946ba97a18f9e616edc41e3b3baeffdc70f1a752e82f3a8de56530fae7d96931ff1e3f44243004691ef02aa887b778e53
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.5.0-7
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7392
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.5.0-7_all.deb
+Size: 2989170
+MD5sum: ead53cead1daba1b41dc66e497b87498
+SHA1: 104426fc30b23f7de2fb2523bedddd8a493aab1b
+SHA256: c6ee0ec849a4c93cfa579d7b09b4cdc6f7488ff9c4a9cdd71894aed18742e094
+SHA512: 522dbe2d86a8da7ce445c10b10bcd8c46509ef2a60fd1c6fbd04b37432bb86194e0990f628cb6f86fd7bd3edca82c9a3cbeea716a25caebb172e49e94094b497
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.5.1-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7392
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.5.1-1_all.deb
+Size: 2989202
+MD5sum: 3713a5965bde6a3d406a8a9eb752e218
+SHA1: 0561843eb6ce56d3250ed68577776928e105abd7
+SHA256: 26e16870e46f36b58669cadbc359af361095f49cc1be4590ce568a1e10822fa7
+SHA512: e9c410eb84035c2a598fa93859cd37f1dc5270d2f4115c049adb3ed730f273cfb8f9e145ab91b22505d322495db1e1468be93b1f5d6e3705e91adb9244c0ce9c
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.5.2-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7392
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.5.2-1_all.deb
+Size: 2989174
+MD5sum: 5893dbb4fbe8dcabcba3ca5a80209ced
+SHA1: 950043e7cb297437abfba9cd39a7ffc20dc249ec
+SHA256: 5c3549274c8a1a5b7748f2fe1fbdefcaaaae2878a3044eec95f0cc8beae3f8d2
+SHA512: 07b62c82d9571c0405fd48e134b6120145c5674fd8f724ff76947b5b27ddfa4366149a5ddaae6d8378e502eac51a5a71689c855084ac0923cb23895724979bfa
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.6.0-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7392
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.6.0-2_all.deb
+Size: 2989382
+MD5sum: 7be2955e8b2e222b68a899b5202f5498
+SHA1: 95825910b2dafc7c2efa0d7f90f1746bd91406e5
+SHA256: fd31f3f8e5f146f2fcd33f2957bd6be0f11f0c3c96c7c5ea35963221280cc0ac
+SHA512: 77f1acf9fc8e158268bc4a5c308865f30a351ec9b075c0b51f22eaac18751ae36f36267ea2a8234fa82e38ea8df58c764029921233828853688971ef470c9726
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.7.0-11
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7396
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.7.0-11_all.deb
+Size: 2990042
+MD5sum: c6c1b9dcf6597f9476d9732be44cb8a9
+SHA1: 284b3cc7de5418316301a244ebe371852af909c3
+SHA256: c600a8f0eacdafa7091064dd624c20757315ae2306ef24cf14395ae8858ab82a
+SHA512: 26e8255c6c0b3c8611f0e499ca01d12afb3aa19c5f91881d51330d87de8e172fe8705683a2d6202f86df8879d4bc16fd662576b77292a7be387f647747f7a487
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.8.0-2
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7397
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.8.0-2_all.deb
+Size: 2990322
+MD5sum: b5289b7eaffc4f18c91d328ae3425338
+SHA1: 304b294a007a8b5ed5cddcfcd3a638bc4320518e
+SHA256: 663bfddc227287ed01662e3438425bcbf0a7c49d8c286fc0aecc3dd1521bbda7
+SHA512: 3081f6b4baf209903a025cd563a364aa87969167a7ec6dad76bca9d7063d2c22928d911099cdfa1c0250ea2ea89d1a658234b53efce0b7ae7fb000e5180bea71
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN GUI (Python 3)
+ Package installs official ProtonVPN Graphical User Interface.
+
+Package: protonvpn-gui
+Architecture: all
+Version: 1.9.0-1
+Priority: optional
+Section: net
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 7628
+Depends: python3-psutil, python3:any (>= 3.5~), python3-gi, python3-gi-cairo, python3-protonvpn-nm-lib, gir1.2-webkit2-4.0
+Suggests: gir1.2-appindicator3-0.1, gnome-shell-extension-appindicator
+Filename: dists/stable/main/binary-all/protonvpn-gui_1.9.0-1_all.deb
+Size: 3173794
+MD5sum: 23f181c9b926609faba570343fad2983
+SHA1: 52ea6ce2d82a435405625f6190961f8022b03da8
+SHA256: 18eb040365d48126e4f50e4e483ff853b265a19570764a5da7eb3a1bdd082ee1
+SHA512: 5c3475d548c1edb87d6f6eec42a424bc3474aadc91af737b7ed2a0c09c9f8f6a79cdb02a5a212d71d687ed4e7d8c0607300cdcde9fd59b4e212229e7e118d4d7
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN GUI (Python 3)
+ Package installs official Proton VPN Graphical User Interface.
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.3-2
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-2_all.deb
+Size: 4518
+MD5sum: 4ea09284f05d2019fe5b7c0589108c9e
+SHA1: 9055df86aac6134244fe1105555dc0b3d4c4ea49
+SHA256: c68a0b8dad58ab75080eed7cb989e5634fc88fca051703139c025352a6ee19ad
+SHA512: f764a4e0946335e891f89c7bdb5ce7537034977da866d6041542043a81011b2dcbf3e7376528415c93802ed22d11b0f3f8c7963ed3ea52894ece8fda7dc38c06
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.3-3
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.3-3_all.deb
+Size: 4554
+MD5sum: a13729740e0177db4b6d2a6befebf602
+SHA1: 6051eb9447345acbad5bf226277fdd5d2efd0375
+SHA256: de7ef83a663049b5244736d3eabaacec003eb294a4d6024a8fbe0394f22cc4e5
+SHA512: 653f06d71ce85b032b978163990f1970a08cd26d28b6aad39329030b90eb590093b651ecbe4d171127d233b0acd73272205290c5c7c0792750de86026df37b46
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.3
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb
+Size: 4482
+MD5sum: 37d88a8bd83690c1d1fec2214854dce2
+SHA1: fd0a04badd41a0a9d90c5154c2ad7d0bad8bd6d2
+SHA256: c409c819eed60985273e94e575fd5dfd8dd34baef3764fc7356b0f23e25a372c
+SHA512: 9ecc7811ce9ec8e1298a8226eafbbbbc9d3362ada555a204004229dcb9e1760ca36149c55a3040328cc8857cba7587b1fc4f7a7992d8d935b50fea7a876dae97
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.4
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.4_all.deb
+Size: 4566
+MD5sum: c3d08ae1cc28bae184eabca9c7e975ab
+SHA1: 3120e580266d28bed8d73df070419a29c2220843
+SHA256: 62a9d849835de8a5664cf95329458bf1966780b15cec420bf707b5f7278b9027
+SHA512: 7d9fe3bc33e5f3677960bd7728027ccc9e7ed01a9a3e5423ab04decb3669f8c84eeed4a63c6203d1db1ce994b9d585d5912f0b49859803ba115291404af6b355
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.5
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.5_all.deb
+Size: 4582
+MD5sum: cd44858871a6951680c17993c58ef927
+SHA1: 006405181b5f39ba76c95f270ca50543a0ce2db0
+SHA256: 2a0910986c0142ad2b67f2de660d4de1a2d53ce84c3f2ec0e893b377f25d985e
+SHA512: 63bc631b1ef9318903be7dbfd3dc49cb4f7f670cea17fec3cba6e9dae5b0b62d62cde9abe769421328846d780bee380edaa3b6ccedf6b4cb6fe6382968f690a7
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.6
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 15
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.6_all.deb
+Size: 4620
+MD5sum: 4e36d5e8aeb4473faf2789bbe2f2ea06
+SHA1: fd5d37151e9c828ae30bdf7aec913f08fac31455
+SHA256: e5e03976d0980bafdf07da2f71b14fbc883c091e72b16772199742c98473002f
+SHA512: 7aa537b68d471de3ed13e48f95ac3cd6ce5c6ad55e2ecffe826fa28c62f8e3d9675e1f4109a029adb10159c69c8781741e37068564544a78189fbce256dafe8d
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn-stable-release
+Architecture: all
+Version: 1.0.8
+Priority: optional
+Section: libs
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 16
+Depends: gnupg | gnupg2, apt-transport-https
+Recommends: gpgv
+Breaks: protonvpn-beta-release
+Replaces: protonvpn-beta-release
+Filename: dists/stable/main/binary-all/protonvpn-stable-release_1.0.8_all.deb
+Size: 4852
+MD5sum: 3974e795ed9f488f98e098d24b89be02
+SHA1: b07d575a9389478bc9e14bd4ff74089f8e39e8c8
+SHA256: 0b14e71586b22e498eb20926c48c7b434b751149b1f2af9902ef1cfe6b03e180
+SHA512: 2ac8aff56e8166ea680afc46749e5e8eb196f93ac9671529fc9825e368bd1013f9b70d8a6ae9c88649ff75fbe2741dee58f5922a8f68e4461190f2f50d6ce25e
+Homepage: https://protonvpn.com/
+Description: Package to install ProtonVPN GPG key and stable repo
+
+Package: protonvpn
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 9
+Depends: protonvpn-cli, protonvpn-gui
+Filename: dists/stable/main/binary-all/protonvpn_1.0.0-1_all.deb
+Size: 3354
+MD5sum: 07e6fa2bc8da515fdbdc5493e6f879d2
+SHA1: c80a384fcb014065f3b00fd61a4dfcb32cf15441
+SHA256: 2a7ef889c8c3d42c5cfd96af7daf523e932461c4378e959e1817fa534abfe491
+SHA512: 9d0b4a7d2d0e47a8dd8985d7110c27b8a9ef0071f266e19de2e4d90c46d86e6363a671b11f93a05a48f2de526d33578ac6ae4bd650909970111b0215d5f203d1
+Homepage: https://protonvpn.com/
+Description: ProtonVPN metapackage
+ A metapackage that installs all necessary dependencies for ProtonVPN for Linux.
+
+Package: protonvpn
+Architecture: all
+Version: 1.0.0-3
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 9
+Depends: protonvpn-cli, protonvpn-gui
+Filename: dists/stable/main/binary-all/protonvpn_1.0.0-3_all.deb
+Size: 3354
+MD5sum: dac7a498b275afbb7b02feafb8c83c35
+SHA1: 78a07d9b3d97466ba3070341a90d6e2765822989
+SHA256: d84965fd22c71265ee64c1c579d019cefe6892e0ae2dc160d4a7279cf2c37a1f
+SHA512: a94a89271ad0eff5e0755ba1bc1e0eeebaf30b1836de43bbc3c976bd61848f2ec937d9a60fa2e808eca9ecae4404edf027c75034a51d699a622647c7f909b188
+Homepage: https://protonvpn.com/
+Description: ProtonVPN metapackage
+ A metapackage that installs all necessary dependencies for ProtonVPN for Linux.
+
+Package: protonvpn
+Architecture: all
+Version: 1.1.0-1
+Priority: optional
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 9
+Depends: proton-vpn-gnome-desktop
+Conflicts: protonvpn-cli, protonvpn-gui
+Breaks: python3-proton-client, python3-protonvpn-nm-lib
+Replaces: protonvpn-cli, protonvpn-gui
+Filename: dists/stable/main/binary-all/protonvpn_1.1.0-1_all.deb
+Size: 3454
+MD5sum: 7cb8fc0db642363be2a33b37874c8211
+SHA1: d32b85f14909b29eb7d3537ba98bfcf5acc7ac2d
+SHA256: a6776d26c99a1cdceb1c0d452f7bdecc16b18a593837ef60582fbf0658f9208b
+SHA512: cc98d503cb98d7810dc9ad1f91fbfc088a9906846453013447c54d60c10a27f27924086dbc4d6f8d9530a4b36b303bf59196a53b0cecd189c6cbb0a2af74b58d
+Homepage: https://protonvpn.com/
+Description: ProtonVPN metapackage
+ A metapackage that installs all necessary dependencies for ProtonVPN for Linux.
+
+Package: python3-dbus-fast
+Architecture: all
+Version: 2.44.1
+Priority: optional
+Section: python
+Source: dbus-fast
+Maintainer: Bluetooth Devices Authors <bluetooth@koston.org>
+Installed-Size: 307
+Depends: python3:any (>= 3.9~)
+Filename: dists/stable/main/binary-all/python3-dbus-fast_2.44.1_all.deb
+Size: 49654
+MD5sum: 9cfb5b010a11858bb1fcae892b7ade2a
+SHA1: e0acaeb30bd8c79629a1c8f37a0dcc35931cfc8b
+SHA256: eeca908ee5f2606e4ab4cc3cb3b898b0c1679206dd8a63575d0a0fe7d2cb6b21
+SHA512: c45574c79f1c7347054f4053a48379a69165e8cbd6c48889f6c21c83d794b21dc8d214e5281e345732018c3551512c50f3de32fbb537de1c6c7dc5f6bb59d091
+Description: A faster version of dbus-next
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.4.1-1
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 94
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.4.1-1_all.deb
+Size: 24404
+MD5sum: d8c1f4bd4934239f548584ad5acb90e3
+SHA1: 3e1f4c64bf8760641dcc7ccafd3da1552cf8d727
+SHA256: 9dce7384c027c1c18c43594d20f10a1415ccba10f7d62140f996ecb4ff184aa8
+SHA512: e3bf8266b691d318554fa474708f01378e579a90c1443f84f01bd094469acc4b6e32d05a4596569444deae77f29f93c0a5037c4e49711beaf81d92cd13f9bdfa
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.5.0-1
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 95
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.5.0-1_all.deb
+Size: 24672
+MD5sum: 6d6a3bb968c8ef0e1fc703fa63ab8c14
+SHA1: 5acbc06bc6a7e873144b73af3bc3f6c358109f1c
+SHA256: 77fde1280c64bace6596aa1ba0da09e6e303c68b22e41696be400afbf528de23
+SHA512: 23cbcc41524ad220a1796697f92da0e29b4862fa3f2e9365c849a650367a8cbdfe5da6e437dc8ec2ed9bba48f85272512fec9ed7b4deab7ad7833dff1f2518f1
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.5.1-2
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 96
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.5.1-2_all.deb
+Size: 24896
+MD5sum: 37fcc0fbcb62d7f09b79ba72400fa016
+SHA1: 7c08b3403f6122b2fbc392bf2d5d057bbfe53e72
+SHA256: 98a2c36162c391d186304c634611704e4ba847bfa019994c5e2ad5c79e0bbfaf
+SHA512: c38f3559a431cb01a9d672699fb248e00e85ed5c4dc5f685d674c83380a696361592f0966ec0fa8aff598fcbcd186f9234af330feec0c2e1fc67e1db7e833d82
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.5.1-3
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 96
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.5.1-3_all.deb
+Size: 24896
+MD5sum: 0e24299475c5b744adc7bb5223ed7be6
+SHA1: 5b8a3a69cd599454369ab825dd6734abe3dfbba5
+SHA256: 538770185f7c5273713530dcd843320769c05eeddbee9c507d801ac1f5230cec
+SHA512: 17576b768c87411f3c3585e88d51da663360e5af98b4fa53aab561562e0844382027be17783cd8827cf07edb5536903c1507b37f3a2462dbf1e164b104bc1fde
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.6.1-4
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 123
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~), python3-dnspython
+Breaks: python3-protonvpn-nm-lib (<< 3.4.1)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.6.1-4_all.deb
+Size: 30548
+MD5sum: c936b67cb5247be68ad214c7b43073eb
+SHA1: 39d358857d5cbc70ab29938200eeff4ce9c9c544
+SHA256: 7bcef0c4a97c36e0c3e3101319d7c74f562dc2093b39ae4066e33208031cf83f
+SHA512: 2c0925cbf453f85d9e7e9b421ad122414df3984d6aa4203ce6384028f25612c26e695f3fdae272dac4e06585896ad1afaab97cdb0e99412c1f4e672a0d7ee823
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.7.0-1
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 124
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~), python3-dnspython
+Breaks: python3-protonvpn-nm-lib (<< 3.5.0)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.7.0-1_all.deb
+Size: 30844
+MD5sum: 12d5ca9dfb2cd5f102b807711c1cf629
+SHA1: 6e8781241e0a9e40896e404de0884698b49ea085
+SHA256: bf2b6b2319c3c8397fecc71acb05fa68b2e9473f64351c544bd69c7293fe72ee
+SHA512: 7637f9ef2c0cbba881541291a1d536f8e9562ddca04debae9af355cc5af0c4bdbac5e6c4ee119a4598a4280736f400b23f64c01a55b81c38ff4cda2ce633b8e9
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-client
+Architecture: all
+Version: 0.7.1-2
+Priority: optional
+Section: net
+Source: proton-python-client
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 125
+Depends: python3-bcrypt, python3-gnupg, python3-openssl, python3-requests (>= 2.16.0), python3:any (>= 3.5~), python3-dnspython
+Breaks: python3-protonvpn-nm-lib (<< 3.5.0)
+Filename: dists/stable/main/binary-all/python3-proton-client_0.7.1-2_all.deb
+Size: 31156
+MD5sum: b0e5757fa7606fd5439163c082d590d1
+SHA1: 13b6a5d69181e2db74f9d0846dbaecd789d50116
+SHA256: 2aa4d298d218d15a8a8ef632f4359164f69bf619dbc2d37f871ac7a431db2590
+SHA512: 5b58f01b1fad781c41089cef11826cf9b68b1b5b1da5333c2fe03a66ac16ede2a707ecc955a2bf44390d93607b8fe7b47845b93bfacc63c768f072af0535cb70
+Homepage: https://github.com/ProtonMail/proton-python-client
+Description: Proton SRP (Python 3)
+ Safely login with ProtonVPN credentials to connect to Proton.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.1.11
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 187
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.1.11_all.deb
+Size: 34656
+MD5sum: f2675d3a9b796a1a2c91d9d3e0c2d182
+SHA1: b373fd279e6305c4c3d02a092dc23f6a81a7f87a
+SHA256: b303a58cf788af762aa2cbc7c5fc4145392a4991a0abc51168c0a49669a025ee
+SHA512: 29f666e83717516618617dbfc2345b22be05cddc66ecbb88e93e04f16b27fc0c2a02400b11250838e73887fe7256f407eadf984e76ceb77396ef958741fde8cb
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.1.12
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 188
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.1.12_all.deb
+Size: 34900
+MD5sum: c4e45833896eb3c43acf232909345d5d
+SHA1: bd651a5ec07cd74e228a50f0858ec9a547dbd122
+SHA256: f0849f4f621b4c8713aad7a45a3c59be947192788386c3c031efe6f9af6f638f
+SHA512: 0dc1e036d26ed991c721f4084880d38e581de8db891c7595e730a415363e9d365199cd9228e089d85b441e575b020506eff0ca77ab86717095f8040d5024227e
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.1.15
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 189
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.1.15_all.deb
+Size: 35112
+MD5sum: e8042c34e9a9d1fcb0f81f536e62df8b
+SHA1: 63b1f2d34c34f698470000e1f1b04be3decfcd1a
+SHA256: 28a858c11cec5277a2a40d40b0aea332a74c8c8597ef9c5acadf05f1e458f6e3
+SHA512: aeded5497ec917c1e7e50e4f9ee2528c84a684f3698cc6244d57f2f083e56b04dad097fef4e8f7b8ecf9d0c43955163170dd107858167d3484b0d579da1e7da3
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.1.16
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 189
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.1.16_all.deb
+Size: 35220
+MD5sum: 485d0f8239d9f4c8b205cc102ce1622d
+SHA1: f13ed59cee3de65819f5f826ea43029a96a64dee
+SHA256: fab71c0af2319537bb7f85392c6d99a0fed9fd73441c2fc15a2b15655d964f51
+SHA512: 2504d2dabd4835b9b63d3715d06bd31c29bb3ee42863a222a44e66bd279eabace3fb50ede3d50ffcef4ae546ec35d485d267a319be5ed47c0f2595fc2d356aa3
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 195
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.2.0_all.deb
+Size: 36704
+MD5sum: 13e8d0ac4cd3e72827699ecda2261417
+SHA1: 22e93c0902223eba00992a21f5070af2e5cbc30c
+SHA256: 78bc93687fa366414c5713b87324e9fb0fe94ad764961b3c76d709749eafcfce
+SHA512: 614e4eeed0c0d316793b56d3acec196e552f64f910959d4b1f6f8496480eb6003ff1954f9b62b8c799c78c48cb93d1e5c25d7fa71dceb3393b0da54a5c3b463c
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.3.1
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 199
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.3.1_all.deb
+Size: 37416
+MD5sum: 3892a57454d3c886cea6a4a5d3539f1d
+SHA1: da9c8fda483e3f3c7b3e622c006da3362c93d4eb
+SHA256: fcbdf3f189a73061b46048f1cfda3d22227d90552fd3ee2ef16ad1039afce318
+SHA512: 719673639f1554efce670952b5efafd5b17fea22e3d2054d3b324e65283fa90f9a319f2baad20af868e9a6931726760a98542805ca8675ff65c86bae9627a17d
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.3.3
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 199
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.2~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.3.3_all.deb
+Size: 37596
+MD5sum: 242a1b3d0d5886faa1579d5f881ecef7
+SHA1: 53c43e7ce991d65ca3630ca5355d250bd063c94e
+SHA256: aaa8b8b80dd4574a0b347b44b9fa09216c713a0214965671303a3fcf3b9a1db3
+SHA512: cd3fc8ca1a040754ae5223aae16d6b94d65a53296a242547330a810ceb48108301b464062a1add3fa99a1ea4f7ff93fbde99627ec47f7817955bbc22ac39867b
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.4.0
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 199
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.9~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.4.0_all.deb
+Size: 37660
+MD5sum: a8cdf0216107dc05c992fe69ab790202
+SHA1: 68480dd591216f58b3ffdfb25ca6197b0dc50373
+SHA256: 05a72ee6eb011abcd092d2fc867fccd82f11debc09156aa1c2498e98463e36d3
+SHA512: 5903368ea0dc25e98451e99f0415347073d8aea69d7e6ce8f6860b3b7fc6f2773b97fdb46e26bdf1baca2d4c6a3021239074800f54e5024efe03278acbb20032
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-core
+Architecture: all
+Version: 0.7.0
+Priority: optional
+Section: python
+Source: proton-core
+Maintainer: Xavier Piroux <xavier.piroux@proton.ch>
+Installed-Size: 205
+Depends: python3-aiohttp, python3-bcrypt, python3-gnupg, python3-openssl, python3-requests, python3:any (>= 3.9~), python3-importlib-metadata
+Conflicts: python3-proton-client
+Filename: dists/stable/main/binary-all/python3-proton-core_0.7.0_all.deb
+Size: 38836
+MD5sum: fb991188c1a2962eeda3629c0980dcf2
+SHA1: 2847ca2639f298598d595f52bbdd6bc53256b5b2
+SHA256: 1d2ac70bc342a1de76c6e573fb26d5e80061e4bd52ccb38a8c6a991689703666
+SHA512: 57c4a50ac59776388641908cb760ac9647c8514a1ec0f82d20f066ea6e6233cadffdfbefbe571fec0e62fe6dc31436b188dd42d09a88bb24c45a7708d52a2f7a
+Description: ProtonVPN client core library (python3)
+
+Package: python3-proton-keyring-linux-secretservice
+Architecture: all
+Version: 0.0.1
+Priority: optional
+Section: python
+Source: proton-keyring-linux-secretservice
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 25
+Depends: python3-proton-keyring-linux, python3:any (>= 3.8~), gnome-keyring
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux-secretservice_0.0.1_all.deb
+Size: 4610
+MD5sum: 2f0c7e3555d6280dd58a80c8ff712875
+SHA1: 2e9b6b1e00ae04e42a824dbd13b69b765ccd1e40
+SHA256: 6d99d7510c12b21cd7b6914ee7cfac5a40d165192b4583ea2345ab4d07bd00b7
+SHA512: 44d92945082867b475b702db7348145a028e2690573f46073800565cd02773317a4af7284460849df449bf5448a9f7e1fc5271d13d7e9edefc13f2e5915a327e
+Description: Python3 Proton Keyring backend for secret service
+
+Package: python3-proton-keyring-linux-secretservice
+Architecture: all
+Version: 0.0.2
+Priority: optional
+Section: python
+Source: proton-keyring-linux-secretservice
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 28
+Depends: python3-proton-keyring-linux, python3-secretstorage, python3:any (>= 3.8~), gnome-keyring
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux-secretservice_0.0.2_all.deb
+Size: 5758
+MD5sum: 57dda208037510cd2eb73b8a6664f9c2
+SHA1: 1a5203c5c6fe94c5d867af30fdd17145198e9aeb
+SHA256: 337faef22103b4a9d0e7dee6afcf1f42e182355efd5af22c623189a7d2350dc7
+SHA512: a12b690f779a7c672c3ee13ec207a8ca0c54b900f2299e3723e2d8a2fa280bfdc6df6ac95113618006fb5bba42ad468c43277a20646857725fa6741513721671
+Description: Python3 Proton Keyring backend for secret service
+
+Package: python3-proton-keyring-linux-secretservice
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Source: proton-keyring-linux-secretservice
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 27
+Depends: python3-proton-keyring-linux (>= 0.1.0), python3-secretstorage, python3:any (>= 3.8~), gnome-keyring
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux-secretservice_0.1.0_all.deb
+Size: 5726
+MD5sum: 514dc1a844594c2d22fc8e24fa755562
+SHA1: d6220bc57eb1851a5b1b11012561e0fc4d2c26a4
+SHA256: de17d48becd7d3917217d4e35567c0e266f61700195c71828119cf8bcdd88eb5
+SHA512: 66567047f02c8500c762d85f664bafa3b8c58e6906bd692ff9b662a59b4dc77a9176fb62d4945ff9fbc64acc873b2652caac6cf63c92bffb802cdc35eb37aad0
+Description: Python3 Proton Keyring backend for secret service
+
+Package: python3-proton-keyring-linux
+Architecture: all
+Version: 0.0.1
+Priority: optional
+Section: python
+Source: proton-keyring-linux
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 26
+Depends: python3-keyring, python3-proton-core, python3:any (>= 3.8~)
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux_0.0.1_all.deb
+Size: 5006
+MD5sum: f0442c1d31ece2566adfcc0519c065e1
+SHA1: 2789e4ff27c6197ea0c12a515d07b5de59e9c01f
+SHA256: 6dc6d7114d6573188b747b7f82af16fe84fbbb990e1146de1d8388df1d4b32aa
+SHA512: 7c4c573fb32c694b860e1153d96d4fcd18d29c44d88be0f654e0671a56711fe467956853262cfb3cb7218e009028721f0e9fe145e27550f5093b21a3aa0669f2
+Description: Python3 Proton linux keyring base implementation
+
+Package: python3-proton-keyring-linux
+Architecture: all
+Version: 0.0.2
+Priority: optional
+Section: python
+Source: proton-keyring-linux
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 27
+Depends: python3-keyring, python3-proton-core, python3:any (>= 3.8~)
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux_0.0.2_all.deb
+Size: 5206
+MD5sum: ac549c60c2321733476efca71c14c474
+SHA1: c2536939e224a9220533ebf277c01f994ee7aa0d
+SHA256: 177cfdfa7b1eaad20d7acc64bff7a8dd3c91c6ae965b841a4880754e61478abe
+SHA512: b69df286973a781ecb6a43942a267a92c20cca4bb5f67aad503f6e624d65ac1e1cbd9a884d8ab7eb8536a6db27f3f27461381a97bf3a376d035f43f4ad660432
+Description: Python3 Proton linux keyring base implementation
+
+Package: python3-proton-keyring-linux
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Source: proton-keyring-linux
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 35
+Depends: python3-keyring, python3-proton-core, python3:any (>= 3.8~), python3-secretstorage, gnome-keyring
+Breaks: python3-proton-keyring-linux-secretservice (<< 0.1.0)
+Replaces: python3-proton-keyring-linux-secretservice
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux_0.1.0_all.deb
+Size: 6354
+MD5sum: 3cb4a2cc7213c828ae864901cab95df7
+SHA1: 74c1d9f77a1355a546fbd8c7d3b00e77d71d9f08
+SHA256: 20e47cf83542fc18cb5ef5c9095e7b8fe7419dbf7f16190fa0a0c972df77e79d
+SHA512: 62b6c165df75a2c12bc5b613599cac816f496b4e57dc494b741c0701b3e1df90a41d4ac414d7cebc10ca31a692550652f6ab5733d9b79c777350ea9fb3b33182
+Description: Python3 Proton linux keyring base implementation
+
+Package: python3-proton-keyring-linux
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: python
+Source: proton-keyring-linux
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 35
+Depends: python3-keyring, python3-proton-core, python3:any (>= 3.9~), python3-secretstorage, gnome-keyring
+Breaks: python3-proton-keyring-linux-secretservice (<< 0.1.0)
+Replaces: python3-proton-keyring-linux-secretservice
+Filename: dists/stable/main/binary-all/python3-proton-keyring-linux_0.2.0_all.deb
+Size: 6394
+MD5sum: edc4f89dc08397fae447e02b95c79651
+SHA1: 54ffb1e426fdd561d35ebb4beeb071dcb40034ce
+SHA256: 8d2306cbf6778bc67e87341c6708271346fbd0a53e9ad7c182cc0387478294a2
+SHA512: 1951ef8cf54c931f139f97452d8c0b3324ca0381f7e204adfabfe8abd0126e443e91616fad5970aeb76ba57d02672576a7c5a0b9055bc77697749370840c0f3e
+Description: Python3 Proton linux keyring base implementation
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.20.1
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 52
+Depends: python3-distro, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session, python3:any (>= 3.2~)
+Breaks: proton-vpn-gtk-app (<< 4.0.0~b2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.20.1_all.deb
+Size: 11274
+MD5sum: 816ede3217b4cb283f250369db3b89d4
+SHA1: 06e4eb23c57196e99b64b3c909004682a16f52e2
+SHA256: 6eafdf0ed362e6ce77cd7b46bfe2833a560f11b87a9637c802b308b6e8bd10d8
+SHA512: 9d56199c1cdd3c260b94a4ae771ece4dca78928b687960759668a79e3a9220935fa845e214751420d29813d61455fb38573b9b5f8ca7081a9f9defa05a2fa1c4
+Description: Python3 ProtonVPN Network Manager OpenVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.20.2
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 49
+Depends: python3-distro, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session, python3:any (>= 3.2~)
+Breaks: proton-vpn-gtk-app (<< 4.1.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.20.2_all.deb
+Size: 10918
+MD5sum: 682e9f2c41049040ee3ee1f1dbbef1d3
+SHA1: 7664589faed650475222cf3813183bec88514cc6
+SHA256: db51195bab7ad1dfbe0df125d0752b02aef53c8e67e94ec451391eefd35d9def
+SHA512: 53080770a3faf5569dcad6c8fc5b7e7e0153c5318ab52eda12ea36e567f7b9c5f6a829b8c0a91775e111cba9d923342d3e13d1705076f6bff4f6a3dc0348be05
+Description: Python3 ProtonVPN Network Manager OpenVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.20.3
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 50
+Depends: python3-distro, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session, python3:any (>= 3.2~)
+Breaks: proton-vpn-gtk-app (<< 4.1.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.20.3_all.deb
+Size: 10994
+MD5sum: 5c65c3dde519abad1bc933d8d04dfcf2
+SHA1: b92d4d65b5145e705f41442d58a96fbb282d911c
+SHA256: a000bc31125f9bbf966ec46f95be022a4bd281efa1d7ac41a77ca178610566f2
+SHA512: 4d3e96b984e015e162646919538bdb93b8228cb1e71d46584028350315a13cc0f023eff35560d8125996ffabe639fc99fc6472ca7df5fc8e1c0e19d7a60d3746
+Description: Python3 ProtonVPN Network Manager OpenVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.21.0
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 50
+Depends: python3-distro, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session, python3:any (>= 3.2~)
+Breaks: proton-vpn-gtk-app (<< 4.1.11~rc3)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.21.0_all.deb
+Size: 11282
+MD5sum: b3cc676f33edc9553a863995fe0eeb41
+SHA1: d544cd924c01fa31fa750a2ac05d2c5582a8438e
+SHA256: f4036430b510d6d3d03504a9c4a0868af263a82ab91b7fcb2735594ffc44436b
+SHA512: 64b2af6f87f2ffd96d0d4959a2a910a5a7026fd2d3a6ceefb5353597c6a250ddb4c52963b9b62d67585ff52f614a54327fe89c8c307937968f5e973534739928
+Description: Python3 ProtonVPN Network Manager OpenVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.22.3
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 56
+Depends: python3-distro, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session, python3-sentry-sdk, python3:any (>= 3.2~)
+Breaks: proton-vpn-gtk-app (<< 4.2.1~rc4)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.22.3_all.deb
+Size: 12398
+MD5sum: 83905ecd58ae8624dc813332141b879a
+SHA1: 6190916b48026c34e7c857bdc1f86d7762995ab0
+SHA256: 251a38cec18dec3e577c5143941e07469506cbe6d287d35e0917eff7007c2b4d
+SHA512: 66c8f7990741e8ad7e0a44f2ea13c5a36b8d554b396c18b289db31d402f8fc2bb46e91cf342d37ad7824fa04436ebd0af33a52d10b0f1b511d150b86f9976ec6
+Description: Python3 ProtonVPN Network Manager OpenVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.23.1
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 176
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.3.1~rc1)
+Replaces: python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.23.1_all.deb
+Size: 32692
+MD5sum: ee532155f1a349ec6ed405b9ca581478
+SHA1: 1cf12d6605edc7c7b6e1175d3cc6a40ac3540a01
+SHA256: a17dbc4274d8ca188bfc6ec5ea00408f32ee0b645fdad475add54fb48aa6a946
+SHA512: 3f2de88b2cd88a50e24fff83af23749cf25681bbacfdb25089b403a74e689dbc7758fa267d0dc21f5ced582907bbde54c5b1fe0f8b2c01342fdd0d86ea1223c0
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.24.4
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 177
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.3.2~rc2)
+Replaces: python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.24.4_all.deb
+Size: 33824
+MD5sum: 0c431b7bb5fd4b83661209e1e92153f1
+SHA1: c2b16aeba94eda99ece8eb3d6a536a3c844070e3
+SHA256: d34d1a203e6b06e8522a573119f25dcce3aaac574e8afc3208530ddf40af46d7
+SHA512: b56dc710ae0e8b768940ca3eb6dca3bb9cee2c869523d8705aaa0e3be470966e8e8c21bb1f23c3c472f18dedccbb33cbd0d371049ac1e73921717d637e8c79e8
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.27.2
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 190
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.3.3~rc2)
+Replaces: python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.27.2_all.deb
+Size: 37656
+MD5sum: 52f35f2888a1690a3674696b15dee9e9
+SHA1: c5caab05820d5dc0c2d2a2b059596582c76ac734
+SHA256: 99295b1e152f2fad301ae76de0554d94df538121955a84fc66af7366099e1445
+SHA512: 7d290183004a2da6bb10e38738c80de91e9259a8cd01a77dc8b621e6104ad2f9c0f871a679d513f4f4910539b18d31d3c246dcdb345e732f93a964cf6d5dc245
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.29.4
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 290
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.29.4_all.deb
+Size: 52016
+MD5sum: e5338b02dd41a7ecb025f5b0ce1eefa8
+SHA1: e764456f1cdb46bf5d2b9df63de070bb4d965545
+SHA256: d26deda60dadeb00414cc8da5a97c01d61e6f615554d2f2dcfda368e387deb9f
+SHA512: 3b527f7db956363feeb12e9940288e4aca0ef8871863485d63d09fb6f8968f3e9e6b855b0956994676d448abe2eaaa2c759b1cad13ffc982b771403280752859
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.30.0
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 290
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.30.0_all.deb
+Size: 52140
+MD5sum: c7dfae61f2185fd82f9840f0538f0f6d
+SHA1: 9d36b5b3f14c404b791ca4f74f7ef41908d0564e
+SHA256: 8474ff05106ef37dbfca27cc8a1e588747df4aec5457abb37bb328aa811a7b8d
+SHA512: ab6ddb01de9e749ed8858a46237a214a15feacecc35dccaf1dab6ab6bdf9043506506d286b6add378bee3261c3dbc358f29148033bb93154ab721c66eb24c5c8
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.32.1
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 291
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.32.1_all.deb
+Size: 52372
+MD5sum: 532da32eb593024cd6b72e40acc9d06f
+SHA1: 271190bf4d48a18337a53fbd2ba05193a8cee1d1
+SHA256: 6f9f31fd1603aa67c6d403aa720eadd3cd9e375d301ad81f69066db2f95fdc2b
+SHA512: 5cc09046cb9efde7b8b91fec15d03f0d73ac5e802575d22d3655b391c92aeff2eb2a7fd0f27e06461dd375b30ad30478ff1b7f15bb20293fd18e076ca0b68153
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.32.2
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 291
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.32.2_all.deb
+Size: 52392
+MD5sum: 7924f7f98617ed678f3810650b8cd7ac
+SHA1: 89e158cc0c0a83445e035f50944afae1f0337d8a
+SHA256: bcde77fa99f8e4be4d7e4dd70de58a6caa41080140ae9d7fd7c4766b774981b9
+SHA512: 6d7e61e62241812e1899148c90cd806af980bb31d5d08fdf0df3c1806fae9531ccda440710a14407e503d23397917b11c76759af3f5e69862e0ed1e7044b748f
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.33.11
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 294
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.33.11_all.deb
+Size: 53304
+MD5sum: f50f4897363094f4312db0ac38ade820
+SHA1: 92237ea1b1aebb5add6b3f97e16f466a8262fe63
+SHA256: 403ba991caeda7ca6a2680774e6be3956b58c4e6b82bae0cdac1adab04cc41ef
+SHA512: 25556c314787d1144a88f65cc5b4d8a1dd14373b68056ea4d7169a705d8f7b62e528e7e7a52a26554e5991e2902bc6b9cb8d94c3bee64adafd3a3dc2c0dfa68c
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.33.12
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 294
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.33.12_all.deb
+Size: 53364
+MD5sum: 685f298a2299988c1264cd6132c9c8b7
+SHA1: f5731d5561294da2c48877a0bb62ebaec7f4102e
+SHA256: 702b1d24551d08ba99cd50b710032371fca99c5fe8589673d6a219813745bfc6
+SHA512: 723e463a454eb15666a30c2f6a086d7f2c7ff8a8942dbaf49e5f6d57b7a7992d80dce754c1f7c67f66bb7218dcb3b1aa2ca8c0910488c7b5615751b18dfc70b3
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.35.5
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 337
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6), python3-proton-vpn-network-manager (<< 0.9.1)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.35.5_all.deb
+Size: 59220
+MD5sum: 0b61457a0c83c9d3546560d363c1fd3d
+SHA1: ecc26d0ae7f473f361a6e04b5577603d19d60f26
+SHA256: babaac75035dae25efec4eca1f27ae65653d7eb82ed4bde03fd77b219e7ef427
+SHA512: 010a6843d8b2e2ab71e4771cff7133c73a0933c57caf293146c09e0a49481b6aa28368a64d5faf9c204bb2667a4aa8bdcc9ad2cdd425305e3f3ce21b39537f62
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.36.4
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 339
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6), python3-proton-vpn-network-manager (<< 0.9.2)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.36.4_all.deb
+Size: 59832
+MD5sum: fadcbbbc54728f4eef9e86cdb038d65d
+SHA1: e81813aa46c4259b58808b692045c7c12ae7bbe0
+SHA256: 6c173a2aa70803cb68c8c6ac9630095bef644b654d4741a835cda6034fb04661
+SHA512: 4b8495558fa34e462010541a013aad2c7f53b0792c439575354c04df36a3d341685bd84825273ebb0d65dfbc7296f2986597721c1559be7df6935babadcf6c21
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.36.6
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 339
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.8~)
+Breaks: proton-vpn-gtk-app (<< 4.4.2~rc6), python3-proton-vpn-network-manager (<< 0.9.2)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.36.6_all.deb
+Size: 59882
+MD5sum: a7e61acf0b66a728aeb0ad6dbec1bb53
+SHA1: fcc924221d5cc594a83752cea15f64596b563ed8
+SHA256: 746562e5ebf1b97cf9c5e684516b045e445bfeab75ed10b0d232d9caf60ea2fe
+SHA512: 0241f9324cd9ac4dc7ba130204e835403e307e35f4195a8db33831d601babe8c5898c9e39c45e23f63cb44f59204b6f4501734fad075f53166ddbd4b2dc19e47
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.38.2
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 346
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.0~rc2), python3-proton-vpn-network-manager (<< 0.9.9)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.38.2_all.deb
+Size: 60902
+MD5sum: 0d3f9f6ec7504bfaee53073ba9bb5ebd
+SHA1: ff7aa350e03c004d52e68481af1ae59f231dde1c
+SHA256: 851e0679244d3f386a946b8af6063050600627441d8da7965057893e3717aa09
+SHA512: 11d08ebc89a7a0cb80b1566521ebdb6b98a7b79540a17ef6057ad810687b337eb9de6e61e9a5eadc750f6dacf24fe19fdb1d70f63873e6c66106098e07907467
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.39.0
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 348
+Depends: python3-cryptography, python3-distro, python3-jinja2, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.10.2)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.39.0_all.deb
+Size: 61362
+MD5sum: d3236dd6b45a932d14a5ef0e28d1d95e
+SHA1: e0287e82abf268b3deb2e32f82b40db4ab6212ee
+SHA256: fe0e5d5bb10746346e074ea55cb25183049b667e4b231a993b3a8aa9b3f2ed24
+SHA512: 7993b07b70a43e4f8a027f98c3100dd4f54bb59b53d7b664c419d20805beb4d86cc5f77a8d15de5e8fde21cc974136a71a32730d14c2e6e3bdae5be7f460f2c7
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.41.5
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.12.4)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.41.5_all.deb
+Size: 60206
+MD5sum: 5ab5b1694fc64bd949c7db25d68bfc98
+SHA1: 901f8a03fec8adbbc831a9c3cc94ba4f5b9ed182
+SHA256: 070857e9cc73a428680b35291fe8cb19517465a4eea276b3eece9d4b81170943
+SHA512: 02dd759ad492a0c2e71e5130938f7992f8ea029e600098c641cd45a5ec14bf88011329c602304e9a59c00db9bcf734b9cfe0898fb950628a5f68db5cbd12d2cd
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.42.2
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.12.10)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.42.2_all.deb
+Size: 60434
+MD5sum: 5d6069a0b736aebb449e33b14d8d248b
+SHA1: ffb9e97c7681a77802f43bfe16601d3f90dd3893
+SHA256: 0e30baa63c0c2d33ffe192ee7e0615b5b9c01858d6222d890dbcf08ede88c96f
+SHA512: 44d5057810f0b7d9bcb198bee6c5528f6b1bce21e9b8e631f9c01b87eb35ba9c2ac325156f095c81df0b59f55bab06b9a7c60c95a6f4141587c36bcfe8d359d0
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.42.3
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.12.10)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.42.3_all.deb
+Size: 60470
+MD5sum: e259d117032c870bfaae4a2c237ca6ed
+SHA1: c733d06c69f3b7dc6410ce1e50a06e2ea408723e
+SHA256: 48869f628ebffbc7dac36e812c0562b930307d54797959f654cf712d5682783a
+SHA512: 8b0d364cb0d8fcdcb4eb85d125b640a3de4ea5217c8fac1498279bde84d280b2019082dcf268ed73bf952e2df44733099f8a5295f646584ea1d7c4d4df6a2ef4
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.42.4
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.12.10)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.42.4_all.deb
+Size: 60570
+MD5sum: 3554f2188208efac99d3d03c16c6aaa3
+SHA1: e60d6d8b3bc9e85883215ef7b3f51145c186e58e
+SHA256: 6ec8262fd2c17e3b2eb140a40c37e4acb894af6c9762713d86d62f8ea7010e16
+SHA512: 942d712e4d9a2709deae1c09b39cb5d41cf240a1e8e2ed364c0afce6442ee0d48839aa3ba44a92ac1c84d783e43d8ded807e40eeaa336bbacc9474d78433fa68
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.42.5
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.8.2~rc3), python3-proton-vpn-network-manager (<< 0.12.10)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.42.5_all.deb
+Size: 60878
+MD5sum: d19a0662f3d53435c0bb5389d6371769
+SHA1: 438ea69cb51d32e11edb86d02f2b89b0e2ff9290
+SHA256: e12eb150af57bf28c7d7881b72a41c407b218ca3a1fba023887231d8e57b6a05
+SHA512: a3ccb713f61b2bb6ec4babd9bed906d44bae846322a494652ee5d153f2240510f87a391adfec695879d73eb27194710c232a374510fa6556367b95d6fadfff7b
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-api-core
+Architecture: all
+Version: 0.46.1
+Priority: optional
+Section: python
+Source: proton-vpn-api-core
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 400
+Depends: python3-cryptography, python3-distro, python3-fido2, python3-nacl, python3-proton-core (>= 0.5.0), python3-proton-vpn-lib (>= 0.1.1), python3-sentry-sdk, python3:any (>= 3.9~)
+Breaks: proton-vpn-gtk-app (<< 4.11.0~b0), python3-proton-vpn-network-manager (<< 0.12.14)
+Replaces: python3-proton-vpn-connection, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3-proton-vpn-session
+Filename: dists/stable/main/binary-all/python3-proton-vpn-api-core_0.46.1_all.deb
+Size: 67702
+MD5sum: 9d78c73e819065c3fec6e408f12f5c11
+SHA1: b0af5c8752192141ad5a123f0e0873ebc1c952c7
+SHA256: a2653bc56591bb2516c7d973846cab58b14ccc39bb8cf763a76feff69f5b833b
+SHA512: 6a75d8992a1de3080ad8312368d8eaaa1187d86075a969a3b3a88c333bbbda69f30e2382d56a1f2fc63003de956a8740baea235a4e3a5acfed3ded015ca0c76e
+Description: Python3 ProtonVPN Core API
+
+Package: python3-proton-vpn-connection
+Architecture: all
+Version: 0.11.0
+Priority: optional
+Section: python
+Source: protonvpn-connection
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 96
+Depends: python3-jinja2, python3-proton-core, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.2~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.19.0), python3-proton-vpn-network-manager (<< 0.3.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-connection_0.11.0_all.deb
+Size: 20652
+MD5sum: 9b3474473d31ed0208a0c872864f22ce
+SHA1: 3ce4e9809a6290e7f8ea43d8e7d57dbd594a8fc5
+SHA256: 9e819031cc725f93039e17358babea6b6907a8bb2d890d211d92051f42953ef1
+SHA512: 825c1318f69c0ccb57e8c034bd0d8ae3e2104a538b8588a960c591ee85ccf420ebda4863289f3b7478c3cd8e8129a9659177ce227ae75d898d22f3d88de66900
+Description: Python3 ProtonVPN Connection
+
+Package: python3-proton-vpn-connection
+Architecture: all
+Version: 0.11.3
+Priority: optional
+Section: python
+Source: protonvpn-connection
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 97
+Depends: python3-jinja2, python3-proton-core, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.2~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.19.0), python3-proton-vpn-network-manager (<< 0.3.3)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-connection_0.11.3_all.deb
+Size: 20708
+MD5sum: 0008336fee105c1a76dbf371504f043b
+SHA1: 537aaa4842fdcbce95ed77781dd4784c24623d16
+SHA256: db3822af89c07e6454c0a7f07663ebda9b9d2594dbb2ba9220a7873bc9be72b7
+SHA512: aa48cc94d43109d06d9dfbecde9f79e08955d3d51bd1dcd987f41b0efc63e35d0365003d5a88192639b87e26e2c7d0b78c3196910246327d835ebdc7c23de613
+Description: Python3 ProtonVPN Connection
+
+Package: python3-proton-vpn-connection
+Architecture: all
+Version: 0.14.2
+Priority: optional
+Section: python
+Source: protonvpn-connection
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 98
+Depends: python3-jinja2, python3-proton-core, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.2~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.21.0), python3-proton-vpn-network-manager (<< 0.4.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-connection_0.14.2_all.deb
+Size: 21384
+MD5sum: 828ad8086f3f0a1bbbbaffea22b3ea40
+SHA1: 818232933694a106aa19644f7434488f4c1fb308
+SHA256: 6be2c95dace660f215629e08a5751e07cdf9aec8541167df2285d0c609582d69
+SHA512: dcba5ffba18e27c2e64417e102a0b3d4373ef560c1e12fac3e085bfbb04fa763df4acd13b4d192ba588e11d508fdb0d2849882d9341a1b3a20b8dfa39b22fce5
+Description: Python3 ProtonVPN Connection
+
+Package: python3-proton-vpn-connection
+Architecture: all
+Version: 0.14.4
+Priority: optional
+Section: python
+Source: protonvpn-connection
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 99
+Depends: python3-jinja2, python3-proton-core, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.2~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.21.1), python3-proton-vpn-network-manager (<< 0.4.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-connection_0.14.4_all.deb
+Size: 21560
+MD5sum: b6704c6765ca60b0ce619cefc5de4b98
+SHA1: a07ca138709db712626a85a37cf63a8efcfb39f8
+SHA256: 2c1335aeb51ca370f8cf06f8de9bbd053d31ddd9e8bb2590b836eaa993a6e5e7
+SHA512: 740bd4e0e905271fa622a1e45e2efb18dfce5b2b7442be954cdd0f19cbfb8b63bfc83c77882899a0c54d4a62bad458128a812811066b01675a7035dace0b7946
+Description: Python3 ProtonVPN Connection
+
+Package: python3-proton-vpn-killswitch-network-manager-wireguard
+Architecture: all
+Version: 0.0.5
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 69
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager-wireguard_0.0.5_all.deb
+Size: 13068
+MD5sum: 3ac7d2eb1d26611670c65c9a06ae2b4a
+SHA1: 501a0a09ac5cfa3f7f06632d0957d1c09207213a
+SHA256: 32046e02912f37ca22c6eb8eca57d999218a9a18f1841001b47e7317013ea14e
+SHA512: 618c809d3a79e34b2632de1ae4d6c7604349a8cef8c6947ef154bc96acb4dfd74dcb2684a2e808fffd75949771d9e865c4dd07a6eadc069c11fba72475d65556
+Description: Proton VPN Kill Switch for Wireguard
+
+Package: python3-proton-vpn-killswitch-network-manager-wireguard
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 69
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager-wireguard_0.1.0_all.deb
+Size: 13104
+MD5sum: 9552f43138108ee9c06c56acaf838dd1
+SHA1: f85dd371e19b24c00a3390ea31d7cc6f14c1a376
+SHA256: 91a881efbe909cf24df2729070d7bd717b82484e99446d34dde1836ea51a2f91
+SHA512: e719418045587c4d6bdce8521e387f7e2c93b51c5fbb79cec254fe31623cc563d6e24878e76259d35f44833ddd878cdace22a1de730790e2ee1e79f1e2bed7e7
+Description: Proton VPN Kill Switch for Wireguard
+
+Package: python3-proton-vpn-killswitch-network-manager-wireguard
+Architecture: all
+Version: 0.1.4
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 73
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager-wireguard_0.1.4_all.deb
+Size: 13896
+MD5sum: b6ec173f50de51759ae8c154dda060d5
+SHA1: 509c9e3e424722cd1f18bfa4b7574e623060bee3
+SHA256: 13bb209b8228a501b206905cfe9f71ec4e3f9617fd210b41d617e4d2b3fd6980
+SHA512: 5aca7f9a4424ba6094f8434d09a3b8fe390959e0a007a483c35c9e8c2286484b277f3ebe0399de0f5cd0151415d97893d7f8a3765c16ae346c64bd63e8dfd73c
+Description: Proton VPN Kill Switch for Wireguard
+
+Package: python3-proton-vpn-killswitch-network-manager-wireguard
+Architecture: all
+Version: 0.2.1
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 72
+Depends: python3-gi, python3-packaging, python3-proton-vpn-api-core (>= 0.35.2), python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager (<< 0.9.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager-wireguard_0.2.1_all.deb
+Size: 13860
+MD5sum: d32d962ca1180b53098ce1da6bf9592e
+SHA1: 31f79218ecca8c3118845635e05157fd95d4b661
+SHA256: 9d5f8a7f6848733171a2ad82c2cbccec01bce2d4e121471f79a25764f36e7b3c
+SHA512: a81398551f16c9750e653359c524c05c11190ff615c67a7fa178fb85103c354d4a5a303e6fe9b45eb8b23179669e44ab52fdea3917d46d8cc1856a5ec438f637
+Description: Proton VPN Kill Switch for Wireguard
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 61
+Depends: python3-cairo, python3-gi, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.2.0_all.deb
+Size: 10406
+MD5sum: 1f223b0fe9ed4335bcbece6550d7db59
+SHA1: 3cdd553d4b46012e2d18452bd347ac61fdbc0052
+SHA256: 010cc4b9c7556dea0e9263698302c92ec698e3a3954f0fff2421d484675dd0ce
+SHA512: e35115a7d44dbc1fa5a243fb424b9529b9eb2950ca82e2c678b3c850698318b9f0e463d4af938fe9dabd08cc8d08030d9966aa56a4da730ba1492fb6a05264d7
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.4.2
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 59
+Depends: python3-cairo, python3-gi, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.4.2_all.deb
+Size: 10966
+MD5sum: ef48c9d833d21c1921061b2231ae935d
+SHA1: fbde606aeea9251d9c227401fd33f157ee637498
+SHA256: 834887957a4efc33a165c80fa572d393611f7c793b84e0f746416f9c800d98b4
+SHA512: 09678a69acf2444ae2153d663a212001c34264db125fdc47bf02894ba804631ee8cc6914b4d06c84b8b3628d61931661161db82bc9721e95f08e5ed1f6c5a080
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.4.3
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 59
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.4.3_all.deb
+Size: 11106
+MD5sum: 5118cb2a40166edcf281522717434d4d
+SHA1: 086cc2458bc2496af7f7e0037c425de440846c41
+SHA256: ea09cbd96950ebe2e69b61182183c4dbc4cbf2ecf17baa41e6b20f79766974dc
+SHA512: a4ac895058b5f3c6e7f56b5582de1eab0a707da2d76502f910f6c9cf57890633367c30a955636ea54ad8402068abc58625d5068787ccd271ba29c7cebc542056
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.4.4
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 61
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.4.4_all.deb
+Size: 11318
+MD5sum: e6f3ad821fad98af4a2b4b63759f0104
+SHA1: c9c67ca5297f68d10d92d2264ff28d88030fbd20
+SHA256: b5cd1258f0b87d8c1d35732d63f84f711d5dfd51e1f0a816d3bd78e666480abf
+SHA512: 1c0b8bb5d24335bf7816b594eda2f994141bc9870cb15fa4f306b546067e7feced6e2b1e7b164ca99effa4dea7220c365ff955bfe1ba8f7e447da1353a946416
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.4.5
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 61
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-killswitch, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.4.5_all.deb
+Size: 11462
+MD5sum: 21d64b8434873e491c2e79496fe86dec
+SHA1: 91c0153839e83d9de937861cfbde25b4d7b99c4e
+SHA256: 4eb4f98ba860feda322bf147af5d5cccbd1627883567da4cfcba00ea4f1c57e7
+SHA512: 3431c6912495a54fe9bfc166ad7c769da2a04018992797c082c61f9f476b6987937921fc4373ad3e34dd67d7a80a41925516f4bece0ac738012c6abea71c4a2b
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 61
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.5.0_all.deb
+Size: 11510
+MD5sum: 2ed53ae91e0715cb9f0d07cc2ab01ff9
+SHA1: 1bdcc4bde1b3ab592c8ae5fd9a08cc8a631f156e
+SHA256: 0adf96323f3ee0e58ebed45dec233e6a1aa02584e6153785782a5de65f013cff
+SHA512: 2abb3a1d6b6f76cbf44635345c283752177f34dff9dde6e21a0ab2804209fb11785a726265cf9159f0ca9a494927ac20440358c5b68f13ba1fa8969146b765e0
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.5.4
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 64
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.5.4_all.deb
+Size: 12342
+MD5sum: c9815aab8a3598b27f1e898f2ab6d031
+SHA1: 6504782751b266e543fb4fa9f50360fed24dbdca
+SHA256: 7ed4674173ddd74ff43981a3e666d3393e7d23da83fa17c7daf3e47a51360f9b
+SHA512: 6335d1cb74b86df89f81af9f2fcc16747a370ac7fcbae219e609ffac10494d467b0771558729db6d6ded5502685835fa04aa6aa21b253221f59d7cd284ff1d4b
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch-network-manager
+Architecture: all
+Version: 0.6.1
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 63
+Depends: python3-gi, python3-packaging, python3-proton-vpn-api-core (>= 0.35.2), python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager (<< 0.9.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch-network-manager_0.6.1_all.deb
+Size: 12274
+MD5sum: 4168439627b00f176bbea82e5d597751
+SHA1: 1f0edf87170371e17dae8f60a282fa75ac52cf3f
+SHA256: 26a5f628c3992cd6f5e4b33f317f26620c3ce07365be8d78110befec5fd18a01
+SHA512: 7151e24ce6de6c63c5cf1d846ade64173224f4ccf1666223635c7b2ea01f4b51485602ca181c1e84c18e517c580eb658eca21e76d81d1edeefba4423050e84b0
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch
+Architecture: all
+Version: 0.2.0
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 28
+Depends: python3-proton-core, python3:any (>= 3.8~)
+Breaks: python3-proton-vpn-api-core (<< 0.19.0), python3-proton-vpn-connection (<< 0.11.0), python3-proton-vpn-killswitch-network-manager (<< 0.2.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch_0.2.0_all.deb
+Size: 5382
+MD5sum: 93bc6ab5f55b0d24ce96e28657f64069
+SHA1: acead7a2cd1ab9865202562c0c106fead764fd7a
+SHA256: 59737e2f2f84c226fae127793d1babd5333a155f425a9bc5a17825ff3e75d43f
+SHA512: 2bdba9d23a00dcbca2faaa04980ece792720c9395f2ea221ebb8e504cc1798effc3801f9339ce1d9b358e1bdf9efcb5bb5c32981383ea0ff0b506f7647c630a9
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-killswitch
+Architecture: all
+Version: 0.4.0
+Priority: optional
+Section: python
+Source: proton-vpn-killswitch
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 28
+Depends: python3-proton-core, python3:any (>= 3.8~)
+Breaks: python3-proton-vpn-api-core (<< 0.19.0), python3-proton-vpn-connection (<< 0.12.0), python3-proton-vpn-killswitch-network-manager (<< 0.3.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-killswitch_0.4.0_all.deb
+Size: 5522
+MD5sum: 178129f5ac1efb9400fabb0bcb243b8d
+SHA1: a5925ac3161428ff6d2b1ae09d5bac505dadbcc0
+SHA256: 96ed5a300893ab4420c78932cbdb8c2a496ce6ccc97fe63e11e425940f2fc0fe
+SHA512: 333488399999ed48e82aea420faf207fabbaea0da1031e019f40bf617ea71d41814c305b003283d65b229a04ad73a5df86a06b2cc7bde4e3094892880bece55f
+Description: Python3 ProtonVPN Killswitch
+
+Package: python3-proton-vpn-logger
+Architecture: all
+Version: 0.2.1
+Priority: optional
+Section: python
+Source: proton-vpn-logger
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 27
+Depends: python3-proton-core, python3:any (>= 3.2~)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-logger_0.2.1_all.deb
+Size: 5870
+MD5sum: b58d429132e15a145f737a7c75759761
+SHA1: 7366c731d4b3ab96f7ace2225ef08275f38439c2
+SHA256: 493d9edd6e7438d4e1de085366ac3790a824e7f928bcbffc08de5b67f08495f1
+SHA512: e53631d835adb29363a871af5fd0222ed653d6c9fa63e8d27f1c06a788e7732e8fd423533f7c532fc5341a966700beb23938d29f803562cb8f5e98956736420e
+Description: Python3 Proton VPN logging library
+
+Package: python3-proton-vpn-network-manager-openvpn
+Architecture: all
+Version: 0.0.4
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-openvpn
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 33
+Depends: python3-proton-core, python3-proton-vpn-network-manager, python3:any (>= 3.8~), network-manager-openvpn, network-manager-openvpn-gnome
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-openvpn_0.0.4_all.deb
+Size: 5990
+MD5sum: 1cfeccc66d52b95ccbb06f457487d36b
+SHA1: 13bfd583f0d18aea8ec02f39c6471112faee57d1
+SHA256: 8cedeb2468b8506fff1557acb55c80bb060a9fc7a05c9a0f61bbe5e19e5c3049
+SHA512: 404e3e00722a11ad92e4c74a139d7165bc8e357fa594cd789fd361aa82e3e9e1d4684018a2cd29831dbcb6a55bea7de4c88b34374cd56fee534af445e572660a
+Description: Python3 ProtonVPN Network Manager OpenVPN Protocol
+
+Package: python3-proton-vpn-network-manager-openvpn
+Architecture: all
+Version: 0.0.7
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-openvpn
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 33
+Depends: python3-proton-core, python3-proton-vpn-network-manager, python3:any (>= 3.8~), network-manager-openvpn, network-manager-openvpn-gnome
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-openvpn_0.0.7_all.deb
+Size: 6082
+MD5sum: 3bff965ee57ab6a7da0b3e6213e68eab
+SHA1: fe1fdfbb1b9fb4cc9da96ae74233d3b5f7341cfa
+SHA256: 36633b0556e70dbfc80ff5efea36271b151382f929499c9fb7f84f8c0ae303e5
+SHA512: f5fb71febdeb34f7fc62f766aa4e8c004c1470bd80858351200883b88b7ac4a4ee25e1d954f74d5f2b11a55acc52f5a6041d9101ba9bfd3c0e2d29260462d971
+Description: Python3 ProtonVPN Network Manager OpenVPN Protocol
+
+Package: python3-proton-vpn-network-manager-openvpn
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-openvpn
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 33
+Depends: python3-proton-vpn-api-core, python3-proton-vpn-network-manager, python3:any (>= 3.8~), network-manager-openvpn, network-manager-openvpn-gnome
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-openvpn_0.1.0_all.deb
+Size: 6118
+MD5sum: b6434734c51d90461d74c33e2e9ce380
+SHA1: b1bff29f53f760dfc6e7f4e8cb8071fbf59dd5c2
+SHA256: 01fdc95ebec7c85524006c4dd7cd73c1af5cb706c5ba333d8a7ac0a52607241b
+SHA512: 73f3f932102e0cd0dedc643973a7c9d7bbf00cd1c38241d289da4edf6807e0cbe80ade6ebad068388744079746b27ab02b8264955b2e87e70214820d2379a452
+Description: Python3 ProtonVPN Network Manager OpenVPN Protocol
+
+Package: python3-proton-vpn-network-manager-openvpn
+Architecture: all
+Version: 0.1.1
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-openvpn
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 32
+Depends: python3-proton-vpn-api-core, python3-proton-vpn-network-manager (>= 0.6.3), python3:any (>= 3.8~), network-manager-openvpn, network-manager-openvpn-gnome
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-openvpn_0.1.1_all.deb
+Size: 6066
+MD5sum: 37a7a7497ecd94bd3834945c5c44f8fa
+SHA1: bb7ea2e4f9741454d5b2970fd5d4a2a93f443be7
+SHA256: 7d9b159f1f4112434b89f90d20990fa9b5612409f311b6f77cf57dce8962f7d1
+SHA512: a81c1f309c22dd595eae34cea8eb1554fd3256a2c2674a947662c4857550b1f9c7f7ecbd9246da471e92085e599e6f6891096a20764bba3977f74e9967bfb17c
+Description: Python3 ProtonVPN Network Manager OpenVPN Protocol
+
+Package: python3-proton-vpn-network-manager-wireguard
+Architecture: all
+Version: 0.0.12
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 47
+Depends: python3-proton-vpn-api-core (>= 0.29.1), python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-logger, python3-proton-vpn-network-manager, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-wireguard_0.0.12_all.deb
+Size: 10382
+MD5sum: 622dee2d10c0398ba20541bc358d7c9c
+SHA1: d75c43c80c851f59f435b40f1982879204d7fc0b
+SHA256: f5377ec33f390e34c62eace724baa88e37f6902862267182164e0f681547c4b7
+SHA512: b74e9bdeefb7de5d4e2d763363c620fe77e73cbc6922eeea11c57ae10a739e013e77c6e340f46285cfe8cc1c2679f0e40d896d5dd16b22564cf1a49b961a6c0c
+Description: Python3 ProtonVPN Network Manager Wireguard Protocol
+
+Package: python3-proton-vpn-network-manager-wireguard
+Architecture: all
+Version: 0.1.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-wireguard
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 52
+Depends: python3-proton-vpn-api-core (>= 0.30.0), python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-logger, python3-proton-vpn-network-manager, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-wireguard_0.1.0_all.deb
+Size: 11070
+MD5sum: d6703a28239b7b82728e462de3b6a93f
+SHA1: 8dde6be4e00a4f5e17a3511571ef5b95e1e61a76
+SHA256: 2e2610816f95e9a229ace64cd23d7f457b6ec520a8477b556d6971d5c5411d85
+SHA512: b766b806e1eb9c269ab0ac5257aae150cf0b23d6a141d17181bb128a3b0613d050f6e49bd3a97ba9940fb4d0522c5beb04d03f69da5e0f0d3f7665650d09c60b
+Description: Python3 ProtonVPN Network Manager Wireguard Protocol
+
+Package: python3-proton-vpn-network-manager-wireguard
+Architecture: all
+Version: 0.4.1
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-wireguard
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 57
+Depends: python3-proton-vpn-api-core (>= 0.32.0), python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-logger, python3-proton-vpn-network-manager, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-wireguard_0.4.1_all.deb
+Size: 12298
+MD5sum: fd3f2f15ca70c927e3e9a58abd4e7c3a
+SHA1: ec0dda8932ff43c86388e18b03e49dd0ada52fa8
+SHA256: 0448a1e83fc7dbec2704e64d72480ca2c0b5b3a002aab3c11ee745a53d233097
+SHA512: 92ba90069c10fe6634352032bf3da64b485e0250aa07817c82451c8a56f0a1fe74818fb7c30fe9709bbb6c040c28b381f1eb956263244d9ee007c82602ebde09
+Description: Python3 ProtonVPN Network Manager Wireguard Protocol
+
+Package: python3-proton-vpn-network-manager-wireguard
+Architecture: all
+Version: 0.4.7
+Priority: optional
+Section: python
+Source: protonvpn-network-manager-wireguard
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 58
+Depends: python3-proton-vpn-api-core (>= 0.33.0), python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-logger, python3-proton-vpn-network-manager (>= 0.6.3), python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager-wireguard_0.4.7_all.deb
+Size: 12664
+MD5sum: e530cda196a8973368a3a4717ba05ce1
+SHA1: 60478d977a88404e64aaa42c1df3e408ab4c506d
+SHA256: 1ed5fd34be5d211eb91f1d8a1619dfeb284fdfeb0bd720d2d55c4c32a975a110
+SHA512: 75926fd1d1a8b120fd7fb7ffe28cba6245c279df6a60de5238843c6afdd23a278771f05399c80cc4291ef9b63b98d6ee66837c62c796aa54414205bd9523fb10
+Description: Python3 ProtonVPN Network Manager Wireguard Protocol
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.10.1
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 196
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.37.1), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.1.0)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.10.1_all.deb
+Size: 29042
+MD5sum: 59f3604a843974a16642970b31c00c9c
+SHA1: f389708b3fe6f232ddb2c89ec68c60103e91a15f
+SHA256: a20a99c1b97ab2166fb9a2d67a4d1c15dba927512ed869045423254ffc293bd3
+SHA512: bb72017af301b229c6505d92e16009313faa49e0c1cda35ca07858d48222f6d079fc66c55263866855ca1948059f8819b429cc2fd0d66f50a1a4f1cf2328c5ac
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.10.2
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 197
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.39.0), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.1.0)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.10.2_all.deb
+Size: 29154
+MD5sum: ca5605649487f5f979f1cdec2a3d67d6
+SHA1: eecace8b86562da61e81e97a8babbd84cb0b1f9e
+SHA256: f232eda1ece17800969c929d3cc8218410774a8120cc4524b2d54df0b2cc4b78
+SHA512: a84022455f61e9f5c104825c73c9df92f311a13edd029470bd2b8cef81d3f0364457e3c5342466e4e870c243e53ea2129dff093ed261a94c5aef7f4dccd78bc1
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.12.10
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 194
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.1), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.2)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.12.10_all.deb
+Size: 28722
+MD5sum: 359c5997e8c9dd9b07fbf0fa24df16cb
+SHA1: 231bab2fde4cee81e501a651dee6419e11e6f986
+SHA256: a6ce267f39eaff006e983f224167a2e9470fdb2383f033c8a80165e4a0578059
+SHA512: 861eb892c14145456e0116ead31c4f58df05b94a265e7a63369acf8ccec5986d30cdbbb20d19d8a496742ce2205ddc574f39d27d74d220e9ddca39d3ebbc4c34
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.12.12
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 193
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.3), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.2)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.12.12_all.deb
+Size: 28834
+MD5sum: e1cec23a3a2dd5eb395fe207055b9593
+SHA1: 04df67d91de8980b541a49dd034a044a23162dd9
+SHA256: dfcdec58c3e20b2df7021fea6a61d82560c6a41d151eb210778e1dd253cd5778
+SHA512: c527e5095bc046e28801f4b55eaeee7feb5c34005229b5f819b7370593a5a4521b8de663709073bdf79de1872809139bc1ce0e08034273abf70d1d98209cae54
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.12.13
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 193
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.3), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.4)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.12.13_all.deb
+Size: 28890
+MD5sum: d312c55349c2a978d3cff1fec0b63d98
+SHA1: 59be8bb4364851a87f576e118cbcd0a2649aac79
+SHA256: c759c4e490717cd0669fbf0f5ef527af51b9764638f320bc092db49f2b16c830
+SHA512: 22358321020c015526eb135a9dc37e4253f98bee6da521dc122a591c568ace020b579212be61fd4638afbc9f9ef9856a41d3078c4e3f17ca3f8eab1d868586db
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.12.14
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 194
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.42.3), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.4)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.12.14_all.deb
+Size: 29062
+MD5sum: 8d0b3fdf5913cad7496d14319537c9c4
+SHA1: 33fde2a1d301eaabca0974601098cd99ad334e32
+SHA256: 47478e62e7e2c470c529f9b61692b5d43bd479c59079da2f17afde32e4d5bccc
+SHA512: db84c8d9d248a6d86ab7f0915e1b43e589a4f353d57e63ac66de82d8505836075285ec17eec02c7fc3de5e280da421be9a6a79af73c418583657b19c584acc4c
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.12.6
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 198
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.41.0), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.2)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.12.6_all.deb
+Size: 28810
+MD5sum: d1706b53fa176ce3bd97cfac1f63885e
+SHA1: a4cc5ba530124b80c3873bc21c295201d9a70925
+SHA256: d2131820cf1c764851438316c26b20156a45be7f8bb2c2c20412f739215306ed
+SHA512: bd187a377a991ab4e722a5db315824be8751ccc82743a41dc7e71437c57ce7eddb9b29d9795ce27cf00295ace83797b690a298092ca96a83b153b0a53931bfeb
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.13.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 195
+Depends: python3-cairo, python3-gi, python3-jinja2, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.45.1), python3:any (>= 3.9~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.4.4)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.13.0_all.deb
+Size: 29538
+MD5sum: 5a4b133f9427c2c772a296504c501d1a
+SHA1: f084e4b1c35daea84265dc257613a2da51b11846
+SHA256: e3b1674f9be6c32c9e7692304d7e0327be1ceffcb5865bc227474c03a38e9f25
+SHA512: 974dc78a5bf2b262378fc20ce4b989cc72f949e0962587a067571582616cc66a405795693e5a5a2763deda2f1256c4a860be6cbef385a869021fe17d335fc71e
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.3.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 55
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-connection, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.3.0_all.deb
+Size: 10858
+MD5sum: b1e0f944a63c2ce64638724e13f1a5fe
+SHA1: c948c3f44384fd781a5191e4061a8594a1de77f9
+SHA256: b1af404dfa3a96aa49833ecbb298db4d39cd25fb03ccc5520fa05dda37a14350
+SHA512: e9f5e466b619d09021d78983b23599402527272eec84eb55dbc8795d3089faaef5b1e7a9084e3afa7ae26ff444b0fa69bc2beccec940bbef26999bbd084fd6dd
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.3.3
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 55
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-connection, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.3.3_all.deb
+Size: 10914
+MD5sum: 8ca699e5bf397376af1cc86f1c8b22eb
+SHA1: 432ffd7323ed139aec7123554b02a2ae8cd2cd9e
+SHA256: 02aa0578531316278df4e506b477a45379fff03f33289a87d1619aeb4b40b0a6
+SHA512: 4ff15ccf7745548570a05756d7f493b0f03c04e0f71530ab417c56ff96cadbeb000aca5ee7fc1449f335e56c8d4cddc642aac15618ae122c4e523b9950016dae
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.4.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 56
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-connection, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.4.0_all.deb
+Size: 11062
+MD5sum: 482120aa6a895a545647417cb8b84e16
+SHA1: 9a7f3b85cccb3ad5ae11c6f737ee5ca19e8de494
+SHA256: f44bebf41165657e548aa6e5c89c99409f4e0092f8947e1c7a2180ba949e0bfb
+SHA512: feac2701f5a05f82574798d62f9bc2a6069b3d108c2f0c7c9f8e4be4f547a03b2997af888f9648fb9cde493f392d14f201eb3e18c8a638c452ee42775aabd9af
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.4.2
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 56
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-connection, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager-openvpn (<< 0.0.5), python3-proton-vpn-network-manager-wireguard (<< 0.0.3)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.4.2_all.deb
+Size: 11182
+MD5sum: 4feb5392bcd42808df2f93509ed2d730
+SHA1: 6ad8ae1ec98f44ecbad1b779d70394e34d72b268
+SHA256: aff11c3fd86f9a6e337edeba3d102d701efa21d9de122fcc86c2091106ca7a1b
+SHA512: be749ee074d5d35d7393298e196e48687e0617ff6169e754b9835605389b02a4806fc35c48d9bf7d8b0bb9dc4dc08da84064755f4412809aa5126deb67a669c3
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 56
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager-openvpn (<< 0.0.5), python3-proton-vpn-network-manager-wireguard (<< 0.0.3)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.5.0_all.deb
+Size: 11226
+MD5sum: 6cbf10519b283978bae56f37d77699e8
+SHA1: 6f85c3a0bda0cc4906b14f38285d4b4a5abff1ed
+SHA256: 84bc954a0b3aebd414527af4795caf6ab8ce6f57936fdd855735f3dbeb7067bf
+SHA512: f1a4b367747b508f0b6db7e7c2c7f74e797670076848bcc9ee1728f352c2f88b2f85dda5750bcf1a18d31b0a13b5ee4fdbbe9629c2db9a27a7bdd1d760b1f97c
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.5.2
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 57
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-api-core, python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager-openvpn (<< 0.0.5), python3-proton-vpn-network-manager-wireguard (<< 0.0.3)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.5.2_all.deb
+Size: 11362
+MD5sum: aa174048d9d5245a2925942b301ccf1f
+SHA1: 27036c2602d33c2b938576cdbe408d43efbbadb1
+SHA256: 98c7956a4bc56d5958545d6ebffa87162808bf1fa6fa8bcc9e9d6cc2e4476ac6
+SHA512: 020b4ca6b159d7c93a70ad5a300794a5c74dc26210ffe1c1147cafd6a0c84479a48314863ba72865b2cfe1f90e56ede876bc021ebe72a3a29a52ea48050191ec
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.6.3
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 99
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-api-core (>= 0.33.0), python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager-openvpn (<= 0.1.0), python3-proton-vpn-network-manager-wireguard (<= 0.4.6)
+Replaces: python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.6.3_all.deb
+Size: 18828
+MD5sum: 69da51c07f2fd780d6006971c7265867
+SHA1: e4231b00f9e2aa373c3d740a3d46652e09566c00
+SHA256: daa3d8c92121fcea2e2cb2550fbadb7047c9dac0b22b6d7d1a6ced2096e9802e
+SHA512: 5975677075bba3156e95fdf66b6569b192d8bde645ce4a450c41107c92b93b0263b8142cead0e05b04e1bcfa6c9336c514de278cd50c42d5300fd707d7680145
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.7.0
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 101
+Depends: python3-cairo, python3-gi, python3-proton-core, python3-proton-vpn-api-core (>= 0.33.11), python3-proton-vpn-logger, python3:any (>= 3.8~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0
+Breaks: python3-proton-vpn-network-manager-openvpn (<= 0.1.0), python3-proton-vpn-network-manager-wireguard (<= 0.4.6)
+Replaces: python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.7.0_all.deb
+Size: 19444
+MD5sum: d00a93450d33e478e68879021e19db13
+SHA1: 8c122d9f27a1d5f4fb0e2b0f25e2aa22ab296e1e
+SHA256: a2751f08494b20015ab87f94a4f9b07aa040125365b97f95471f10f1fab6e455
+SHA512: cb91de358d11af8638ae950302711dd0ae38a09e8f0ddae564a04dba0d33b4967181713a76b3a28b4e055c51599129afef08ffb547ab7d656c027848b8ba7361
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.9.1
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 194
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.5), python3:any (>= 3.8~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.0.0)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.9.1_all.deb
+Size: 28372
+MD5sum: 320378eb09a9e458e8085b11f44563ca
+SHA1: 6e1879480caa0ebc0611489b0256448bc8f56521
+SHA256: 2ac44dea597f6407b20c7697efc61d6854257eb4fba83a81ce62f9758b40540a
+SHA512: 0a9ed4ffd3001a83b527f8e26474cae8ca84c15057445159378d4fc2dc4affbb027f0ca901b4d656d08ba723bb5b59b8ead81acccb3f3bf6fa53e46192c04245
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.9.4
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 195
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.6), python3:any (>= 3.8~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.1.0)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.9.4_all.deb
+Size: 28428
+MD5sum: 23cfcd92a0ad3c561a03d29b875d0c99
+SHA1: 29340d5e027ffd4c0337a1e0479f7f27074fefee
+SHA256: 850596fa48812d05b057c74fba12c5a0150620d4021160e56eef55865f94d0e4
+SHA512: bb6d7bda31c7f0f18848fa3aa0fc2087c1bf02df5e48637459aac8f851e14e57afcb9caec868360d2870c2b7c267aa6b39c53fdcec52a07cccbbdbb3e03e4469
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-network-manager
+Architecture: all
+Version: 0.9.7
+Priority: optional
+Section: python
+Source: protonvpn-network-manager
+Maintainer: Proton AG <opensource@proton.me>
+Installed-Size: 197
+Depends: python3-cairo, python3-gi, python3-packaging, python3-proton-core, python3-proton-vpn-api-core (>= 0.35.6), python3:any (>= 3.8~), network-manager, network-manager-openvpn, network-manager-openvpn-gnome, gir1.2-nm-1.0, python3-proton-vpn-local-agent (>= 1.1.0)
+Breaks: python3-proton-vpn-killswitch-network-manager (<< 0.6.1), python3-proton-vpn-killswitch-network-manager-wireguard (<< 0.2.1), python3-proton-vpn-network-manager-openvpn (<< 0.1.1), python3-proton-vpn-network-manager-wireguard (<< 0.4.7)
+Replaces: python3-proton-vpn-killswitch-network-manager, python3-proton-vpn-killswitch-network-manager-wireguard, python3-proton-vpn-network-manager-openvpn, python3-proton-vpn-network-manager-wireguard
+Filename: dists/stable/main/binary-all/python3-proton-vpn-network-manager_0.9.7_all.deb
+Size: 29034
+MD5sum: cac8eb093615b4d0a5ced0dd88b6db4b
+SHA1: 58aaafd9a17a3254dd36a293f582ebed80351f70
+SHA256: 269cd973d251068b01d521f388c2eec787519d4d0b0954907d67b5a5bdf8f6d4
+SHA512: c687f02aabab41d19aa6a29156ea522d80078d122ae8f5863183fa08c07b00373fdd15602c6eba5927606823948769e5684ab71a2d7b14170acfd07e75c597d0
+Description: Python3 ProtonVPN Network Manager Backend
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.0
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 130
+Depends: python3-cryptography, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.20.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.0_all.deb
+Size: 24232
+MD5sum: 568f955283835b689cb42bdd87e1f5fe
+SHA1: 044c5b962fe95872a166881eb5360a4f455a508e
+SHA256: 48cd9c5966fd951c9452d3c06841ffad309d9d0cc096860d194390589c9c7126
+SHA512: 870eaafa7627531f3081b236e868efa49f96a093b69f8aeebca4e4cac9cc22708df0936b098200c11d67238f75bcb833804ea444c9c2439c6c7a422ded1c8ceb
+Description: Python3 ProtonVPN Session
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.1
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 131
+Depends: python3-cryptography, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Breaks: python3-proton-vpn-api-core (<< 0.20.0)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.1_all.deb
+Size: 24408
+MD5sum: 47d4613dfd8018e5dcbd49f6902d6fd7
+SHA1: 297e2845532a65d453c644fadebae859e60f4919
+SHA256: 7b4c90a1c8c18a19063e677161425bf76faa136d875c7bb227a982b259a07ad5
+SHA512: ebc6b066f23cfdb009e259ce16ac1d48fbc66af8b274b792403e077c305ab4060cf421fc99e806405d88ac714756e016843374ce283f55832ab6ba6ca3366c7d
+Description: Python3 ProtonVPN Session
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.3
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 133
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Breaks: python3-proton-vpn-api-core (<< 0.20.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.3_all.deb
+Size: 24968
+MD5sum: c8effc42df81b7dff2581d6050aa53b9
+SHA1: f55d7525505951cf85f31b9cf38099ddda37757d
+SHA256: a0664154a15693a6c0e8436a518771a7dd742300d7a6cf471fbf2e08aa0d5362
+SHA512: c2cb3afa36faf25819815304fe0473425764a5af0bc2e2cce5f0e8e0ec6f2fe1fa2c3ba22b8cec032eb54016867fcfc36bb97acc87c017ad462be54b3fe4a8b4
+Description: Python3 ProtonVPN Session
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.4
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 133
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Breaks: proton-vpn-gtk-app (<< 4.1.3), python3-proton-vpn-api-core (<< 0.20.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.4_all.deb
+Size: 25072
+MD5sum: afb99ff9ad19f1e3ab68950f985f6d38
+SHA1: b2c5af0e2e8142fcb4e6b878874eaf7749c340ce
+SHA256: e1671b527f71693aa4d86eb7e5267f9b4c2ce15ceb57255945e15d336841fb85
+SHA512: b7b56012bdde338e7cdf4f91b0e6100b0801c31c66d9ada1dff0e534c3e023a2f5438ea2d5c94f6cb783ef166f882ba5379542b5a7aba2e56e1db0298645b463
+Description: Python3 ProtonVPN Session
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.5
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 134
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Breaks: proton-vpn-gtk-app (<< 4.1.3), python3-proton-vpn-api-core (<< 0.20.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.5_all.deb
+Size: 25296
+MD5sum: 2b9de9fa9b58150aa18b0f984670e062
+SHA1: f82ad5084962d37c292b64527cdb1bbcb2c3afcd
+SHA256: 22d9521b7e01b83406ff53baa8f36fdbf185e286b9aa9a93407295e750ff73f1
+SHA512: 7b4bd00592f14e2f73b96cbd941ff9358c09d150c4c31a306160981785bc0a7537e1a4de25be65c1fd143e999233293739c4e36a521fe02b78d35af4f1ade55d
+Description: Python3 ProtonVPN Session
+
+Package: python3-proton-vpn-session
+Architecture: all
+Version: 0.6.7
+Priority: optional
+Section: python
+Source: protonvpn-session
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 134
+Depends: python3-cryptography, python3-distro, python3-nacl, python3-proton-core, python3-proton-vpn-logger, python3:any (>= 3.8~)
+Recommends: python3-tabulate
+Breaks: proton-vpn-gtk-app (<< 4.1.3), python3-proton-vpn-api-core (<< 0.20.2)
+Filename: dists/stable/main/binary-all/python3-proton-vpn-session_0.6.7_all.deb
+Size: 25464
+MD5sum: ddca086e7478aa7f4bf97c139d0248a9
+SHA1: a7900016b27fa01a9a62093a36ce217035761304
+SHA256: 7b31bf803d1d876264d7fa7a48926380f7f103dddeb243f23d6382b10147b386
+SHA512: c1ae45cf2096da6c2b7d2849fa9a37ee470292cdb7b23a036048687215d9a960fdefd412cc7c6cb2a5fe10e951d7cd9c25fde48f200bb1d4bdace9d1193d285b
+Description: Python3 ProtonVPN Session
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.1.4-2
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 344
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.1.4-2_all.deb
+Size: 62832
+MD5sum: 1a7c07037a3c9744334dd9a9d4bb09b4
+SHA1: 5c7cadb9efb48157cda54918fa3399398bfc0100
+SHA256: 0c981b91c54b30b19041183088d3eaf74eaf6679272933606bcb3c7f3dc71b85
+SHA512: 106d79ba593742c87339a4072612c2f247a2dd4752ccac19f50b2751fcd7b5e6bc2172291a70790854f0072a6ef96c9c6dc4e4c8fbef1df16cdcc872dcf90e6f
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.10.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 434
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.10.0-1_all.deb
+Size: 74076
+MD5sum: ee4bca63967bcb2036145fbb4a6f95b8
+SHA1: 8ed114ba06c54d1f7fd15ddc73cba09ef98e0a50
+SHA256: 772b1c90f5d922084f3e4f5e3c538a1b71666562571fa4b9ee2f6fccdb7046c3
+SHA512: aebad82c058385f80ab8957f4b0867321f598a75263669c3ea74ea34259ee5ea4c9e6fb13c9f457b4a9712dec3c5fa2c2d5b3904e3ad25a19452234e48365853
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.11.0-2
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 434
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.11.0-2_all.deb
+Size: 74208
+MD5sum: 594dd1328e3b801a5cdf7808ce8265fb
+SHA1: 5167f77a14fe5c3603f9f02b292e41fa44bc44ee
+SHA256: c80695c709928fdd54416dfb730361252ca07e5d83b082554f0e0beffd24483e
+SHA512: 8fc15f22dfaf4128a50f25fe4c9574bd3d6f7d27cd28ce3e48e7f6a1e2960f0ad9f5871dda0b742141ad29caa63758a83e362f6b1b9b6ee1f2d6f7f0e70b673b
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.12.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 434
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.12.0-1_all.deb
+Size: 74248
+MD5sum: e1a82a6c5507383a841003fc8b64b570
+SHA1: 36a00dabc15a994a69fe5c52b73e4159c9268896
+SHA256: 9ea061ab11d8dd311ad6d016ead1ccf431294e2907119381cca2020c950b4110
+SHA512: ffc05292a23b7059f994a9f617193debef0b93b45bd4164f21b26d3641daddc1393be52d63458a8da9283793dae2b30ed68893e6be6c19e2c71e87428a4d7381
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.13.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 436
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.13.0-1_all.deb
+Size: 74360
+MD5sum: 1b0280a5e07c1d1589bc765a92aba9f0
+SHA1: c339d219d59e3bcde010566af64c121967313a54
+SHA256: 765ee5cc4fe871ecd02d5feb429c4860cfea51284bfbd8b8afcdbd75600493ec
+SHA512: b49a095de39d849928babd3d37c7f5a590f16cddf55507d33ad3f8effe11f29e70865038eda09830c9520e70b19d5b58c31b8a9ccdd333643a0600817a3dd9e7
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.14.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 437
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.14.0-1_all.deb
+Size: 73356
+MD5sum: e723bdb32ba3e1a8d2eaad2ab8374346
+SHA1: 0af400d36a7b8edfc1687308097e8cff143770b2
+SHA256: 0eda91f3d22828e0c4b6cd01b9bd9733811317a9398965454e5bdd6aad956376
+SHA512: f1074e952d54c7143b9100f67a9eb526a80226cdb187f1e6816b1b91a89e1d3a82bdc18af2d630057f5e74117fb6558611af06bfc5c5499016c714b1b8c8a44e
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.16.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 438
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.9.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.16.0-1_all.deb
+Size: 74676
+MD5sum: e850b4e2395e660483cdc475e6a96a3f
+SHA1: 85d0063fb1acf1c92b41564ad17d6116a7afa1e9
+SHA256: 007b2e95ed5ef637d1088c4ee01c4a63553f72bfe6ee62984e25b2e3ba102e67
+SHA512: 12bf8aae3ef23bf0d65131e1eb5f0d7b6d60be7425df1e2e22cb8b52230ad3cabaf9676be5840155ad212b36c96de6caaaae91be5d7761fdf43ebf6e5590f556
+Homepage: https://github.com/ProtonVPN
+Description: Proton VPN NM library (Python 3)
+ Package installs official Proton VPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.2.0-4
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.2.0-4_all.deb
+Size: 63216
+MD5sum: 9fcb55fc5459c4c73238626f655d8196
+SHA1: 25acf476bb65248f098389d5caf9fd2bc362262e
+SHA256: 73ba2a9b1b4bb5f79be497ef346eca6b0440fa3cdffc0795d498743a0ba20a5c
+SHA512: fe98df088e7a7adaaf6047ea73e424a005ca9d1d5df6e2c103ceef377d62be59fc57c69ac0a6359bd27276aad4597dc221cc01a5fb2e81e4a27805ea40465fd9
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.2.1-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 345
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.2.1-1_all.deb
+Size: 63288
+MD5sum: d92d3c5db8515e466a49af42aca66d31
+SHA1: 65927fe957f80825eea53fdfa7817696d77197a1
+SHA256: 110f31c28707a08ca5a0f1f400e843bdf2d318da4bb9de8b26b3397630659543
+SHA512: afec2bd7799f7052424fef57f1381fcaa755265533876be1a9a42cfdb50b2649af014ed2b6067a2e1c4e47feb3715bff2dc7f3f45a93603bfad8ec2a51d1f5ab
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.3.0-3
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 368
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, python3-systemd, xdg-utils
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.3.0-3_all.deb
+Size: 66108
+MD5sum: 4099d2e68fbf5ea2ec65940a63e80c2c
+SHA1: 033269d0d2f441ff0044e1d9e0bb99053e2576b8
+SHA256: 499c91e51c03a94b0c62c53bc437450b7ef1694a7fc27ab082badb112a3e4610
+SHA512: 90aca42c42085cf341b1630fbdccf0f84c32389476d1bf37cb81fd29bc53015b3900a6d9d02ec31fd40084e211e3b321885d4358ebaaf2749cc090cbf8130005
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.3.1-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 368
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, python3-systemd, xdg-utils
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.3.1-1_all.deb
+Size: 66132
+MD5sum: a434df866cf51e97c77f07df89ec9412
+SHA1: 870b14fdb13757f6c3362d91ae2c3e1f2abd1b8c
+SHA256: 85547d5af788611e26854c2523a77c49b4d64b3bb12ac3765e76281db2366799
+SHA512: 59f1f7e48d9ce12e28acf2c170d2faa3dc9431e79f6fdf60ca8b5a2b2625f6508ed6cb976f1f59fd848fd11e9528e78c1c5f86c1a0e1984d731b7b6fb81bd8a8
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.3.2-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 368
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.5.0), python3-proton-client (<= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, python3-systemd, xdg-utils
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.3.2-1_all.deb
+Size: 66216
+MD5sum: 20fd21c9604249887a245a5a2600aa11
+SHA1: 015d85ffb229a3b88b03414984d13ab5f798e9ba
+SHA256: 8764e050efd676fd7619c5a20ca7dbd1ca8f82c835d398844bc665c98fc556c3
+SHA512: 102c1b8ac304dae934904b5c1f546d54218368916f5f00eee6976cb83cdd8bb0b3dddfe19a33c76b639b5b9d83f1dcbdb2cfd5d6f72ae6c6aad8357d56139fdb
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.4.1-3
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 395
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client (>= 0.6.0), network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.9.0), protonvpn-gui (<< 1.3.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.4.1-3_all.deb
+Size: 69084
+MD5sum: a77068bc0460220b127332bb3173d8cb
+SHA1: 0dd2683bfc9609b4a05b22500cf408f87a25103e
+SHA256: 536354502827fb23f80089077a3adc23802068fca6f410e616679f5157f066b4
+SHA512: 118f1bc6d413c0a228624e3e93b946f16db422f137b05f3d39f07991577f24d788761a57510f4d1fcdcb8f462c229bea95431dbc1ce9cc8d314f712dda8755a0
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.5.0-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 401
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.10.0), protonvpn-gui (<< 1.4.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.5.0-1_all.deb
+Size: 69740
+MD5sum: 5dd5e164bf33092891df252f4af22c5b
+SHA1: 6756ab0d321de401bf1673efe685cdae7928e63a
+SHA256: 4c21a5971b700e91f09e4cfe4d5a140e8d4c797afa54ba8a965a3356f7894840
+SHA512: ed520eebb58858ceba9986c945bec43b13603602e187109aa2481512f3f104d9ed4ad654222f14b70835635e32a1c2bb5df6d6770b08ccb742dfc5deff987306
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.6.0-5
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 420
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.10.0), protonvpn-gui (<< 1.4.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.6.0-5_all.deb
+Size: 72192
+MD5sum: b4e24461f770e50fa3bcc0f226656978
+SHA1: 3867b04601498844f995b6d53874484f83b72215
+SHA256: 34f751635b7c55a028ffbeef107f4f5cdb801738e2ad507864b6bcfef8b17418
+SHA512: 0b1f5cc51671e96dd3efe70d87db1899c90869f7643727f233a76284db6a234d895437b646212a08c89b9abad5108e49a693bff36d3f969149791834cfffdc30
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.6.1-1
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 420
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.10.0), protonvpn-gui (<< 1.4.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.6.1-1_all.deb
+Size: 72212
+MD5sum: 64509cec06913852861deafed7e6844f
+SHA1: f7014a02a15c7b53303cb2e9b7c58f5174666ab2
+SHA256: 0bc0b592cd2a66ffd2f4e4b95fa8d60ea7161fc378bab21a8d3bfc5faae806aa
+SHA512: 6880c8865889953c3fe6bd36574e68e4f7876734bc24d9499b8762a4337e46ef6e9111a5db7ebdb3b241be71c3fffa5f6ac1e3337d20487e3120788beccbc5b1
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.7.0-6
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 427
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.7.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.7.0-6_all.deb
+Size: 73188
+MD5sum: 8df3a075c0db312f0f58452d089ff13b
+SHA1: a8911f7871af36688ee40ca839d6c67c38a8c42f
+SHA256: 4994b07bec941fce6cbdc118b98b2387b38513cef39863c6ddd63674ae12a438
+SHA512: 7e927e80bb13fa08001bee3a3723fe5245c810dc6a62ba16fcf1bb1f8894bbc07d5967fd10eca1c67e8138fc98bba47d7c7742185700a2e7aaf998f43af25777
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.8.0-6
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 432
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.7.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.8.0-6_all.deb
+Size: 73640
+MD5sum: 1f9d11d32275858f418725c0186bd8fe
+SHA1: ff72b47cb07d4b1a0fa8cee684ea417862287bac
+SHA256: 1f9afe1bc87f407a641a57dac5731326a058709ea2a2a3c5277723b1faeae66a
+SHA512: 2cd5db1e252cc999aa4e4f07829f8ddf715042e0b84477eaa53bb21cc7825b051b37da0eee3aa7a8f2fc4fd26ecda7df00ee288a44c149c4ffd0aaae5f04ccb6
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
+Package: python3-protonvpn-nm-lib
+Architecture: all
+Version: 3.9.0-2
+Priority: optional
+Section: net
+Source: protonvpn-nm-lib
+Maintainer: Proton Technologies AG <opensource@proton.me>
+Installed-Size: 434
+Depends: python3-distro, python3-gi, python3-jinja2, python3-keyring, python3-systemd, python3-xdg, python3:any (>= 3.5~), python3-proton-client, network-manager, network-manager-openvpn, openvpn, gir1.2-nm-1.0, libsecret-tools, dbus-x11, network-manager-openvpn-gnome, python3-dbus, xdg-utils
+Breaks: protonvpn-cli (<< 3.11.0), protonvpn-gui (<< 1.7.0)
+Filename: dists/stable/main/binary-all/python3-protonvpn-nm-lib_3.9.0-2_all.deb
+Size: 73864
+MD5sum: f3cb4fd6b02ab6188e32fcbfd36ed412
+SHA1: 6a5fb45413dfdb466f891410b4405a8da245ea2b
+SHA256: 7cb4f50d46510abc11ef4eb440d099b1e7487ab949896daa1dcfe84c49eb7375
+SHA512: fb31b2c86ff5818dc0276ac5f74ac4980e2b2e774628213409db7ca4a4df4d85ab18c6cde7d7838e6f5ae7036603fab058c529a7ba9b8415f0e1355f3689eb3f
+Homepage: https://github.com/ProtonVPN
+Description: ProtonVPN NM library (Python 3)
+ Package installs official ProtonVPN NetworkManager library.
+ .
+ This package installs the library for Python 3.
+
