@@ -3,7 +3,7 @@
 This document certifies that the files contained in this copy are a **mostly unaltered** copy of the ProtonVPN repository.
 
 * **Repository name:** ProtonVPN
-* **Source URL:** [{url}](https://repo.protonvpn.com/debian/)
+* **Source URL:** [https://repo.protonvpn.com/debian/](https://repo.protonvpn.com/debian/)
 * **Date retrieved:** 2025-10-22 (Europe/Amsterdam timezone)
 
 ## Statement of authenticity
